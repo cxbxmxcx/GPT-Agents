@@ -1,0 +1,82 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  subject:
+    type: string
+    default: time travel
+  genre:
+    type: string
+    default: fantasy
+  format:
+    type: string
+    default: movies
+  custom:
+    type: string
+    default: Please don't include any romantic comedies or the romance genre.
+outputs:
+  recommendations:
+    type: string
+    reference: ${echo.output}
+nodes:
+- name: recommender
+  use_variants: true
+- name: evaluate_recommendation
+  type: llm
+  source:
+    type: code
+    path: evaluate_recommendation.jinja2
+  inputs:
+    model: gpt-4-1106-preview
+    subject: ${inputs.subject}
+    format: ${inputs.format}
+    genre: ${inputs.genre}
+    custom: ${inputs.custom}
+    recommendations: ${recommender.output}
+    temperature: 0
+  connection: OpenAI
+  api: chat
+- name: echo
+  type: python
+  source:
+    type: code
+    path: echo.py
+  inputs:
+    input: ${evaluate_recommendation.output}
+node_variants:
+  recommender:
+    default_variant_id: variant_0
+    variants:
+      variant_0:
+        node:
+          type: llm
+          source:
+            type: code
+            path: recommend.jinja2
+          inputs:
+            temperature: 1
+            max_tokens: 256
+            model: gpt-4-1106-preview
+            subject: ${inputs.subject}
+            genre: ${inputs.genre}
+            format: ${inputs.format}
+            custom: ${inputs.custom}
+          connection: OpenAI
+          api: chat
+      variant_1:
+        node:
+          type: llm
+          source:
+            type: code
+            path: recommender_variant_1.jinja2
+          inputs:
+            temperature: 1
+            max_tokens: 256
+            model: gpt-4-1106-preview
+            subject: ${inputs.subject}
+            genre: ${inputs.genre}
+            format: ${inputs.format}
+            custom: ${inputs.custom}
+          connection: OpenAI
+          api: chat

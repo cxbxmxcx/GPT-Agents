@@ -1,0 +1,27 @@
+id: template_eval_flow
+name: Template Evaluation Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  recommendations:
+    type: object
+outputs:
+  results:
+    type: string
+    reference: ${line_process.output}
+nodes:
+- name: line_process
+  type: python
+  source:
+    type: code
+    path: line_process.py
+  inputs:
+    recommendations: ${inputs.recommendations}
+- name: aggregate
+  type: python
+  source:
+    type: code
+    path: aggregate.py
+  inputs:
+    processed_results: ${line_process.output}
+  aggregation: true
