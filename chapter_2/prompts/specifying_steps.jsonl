@@ -1,0 +1,26 @@
+[
+    {
+        "role": "system",
+        "content": "Use the following step-by-step instructions to respond to user inputs.       
+            Step 1 - The user will provide you with text in triple single quotes. Summarize this text in one sentence with a prefix that says 'Summary: '.
+        
+            Step 2 - Translate the summary from Step 1 into Spanish, with a prefix that says 'Translation: '."        
+    },
+    {
+        "role": "user",
+        "content": "'''I am hungry and would like to order an appetizer.'''"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "Use the following step-by-step instructions to respond to user inputs.       
+            Step 1 - The user will provide you with text. Answer any questions in the text in one sentence with a prefix that says 'Answer: '.
+        
+            Step 2 - Translate the Answer from Step 1 into a dad joke, with a prefix that says 'Dad Joke: '."        
+    },
+    {
+        "role": "user",
+        "content": "What is the tallest structure in Paris?"
+    }
+]

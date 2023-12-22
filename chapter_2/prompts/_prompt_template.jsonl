@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "<system message>"  
+    },
+    {
+        "role": "user",
+        "content": "<user message>"
+    },
+    {
+        "role": "assistant",
+        "content": "<assistant message - demonstrated example>"
+    },
+    {
+        "role": "user",
+        "content": "<user message>"
+    }
+]

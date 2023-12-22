@@ -1,0 +1,21 @@
+[
+    {
+        "role": "system",
+        "content": "Summarize the text delimited by triple quotes with a haiku."  
+    },
+    {
+        "role": "user",
+        "content": "A gold chain is cool '''but a silver chain is better'''"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "You will be provided with a pair of statements (delimited with XML tags) about the same topic. First summarize the arguments of each statement. Then indicate which of them makes a better statement and explain why."
+    },
+    {
+        "role": "user",
+        "content": "<statement>gold chains are cool</statement> <statement>silver chains are better</statement>"
+    }
+]
+

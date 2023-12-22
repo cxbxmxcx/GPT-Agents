@@ -1,0 +1,20 @@
+[
+    {
+        "role": "system",
+        "content": "You are a helpful assistant."  
+    },
+    {
+        "role": "user",
+        "content": "What is an agent?"
+    }    
+]
+[
+    {
+        "role": "system",
+        "content": "You are a helpful assistant."  
+    },
+    {
+        "role": "user",
+        "content": "What is a GPT Agent?"
+    }    
+]

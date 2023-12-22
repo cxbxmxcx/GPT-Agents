@@ -1,0 +1,18 @@
+[
+    {
+        "role": "system",
+        "content": "Answer all replies in a consistent style that follows the format, length and style of your previous responses.
+        Example:
+        user: 
+        Teach me about Python.
+        assistant: 
+        Python is a programming language developed in 1989 by by Guido van Rossum.
+        
+        Future replies:
+        The response was only a sentence so limit all future replies to a single sentence."
+    },   
+    {
+        "role": "user",
+        "content": "Teach me about Java."
+    }
+]

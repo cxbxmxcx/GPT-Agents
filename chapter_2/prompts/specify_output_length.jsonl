@@ -1,0 +1,20 @@
+[
+    {
+        "role": "system",
+        "content": "Summarize all replies into 10 or fewer words."  
+    },
+    {
+        "role": "user",
+        "content": "Please tell me an exciting fact about Paris?"
+    }
+]
+[
+    {
+        "role": "system",
+        "content": "Summarize all replies into 3 bullet points."
+    },
+    {
+        "role": "user",
+        "content": "Please tell me an exciting fact about Paris?"
+    }
+]
