@@ -1,0 +1,36 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Recommends anything to a user",
+    "completion": {
+        "max_tokens": 256,
+        "temperature": 0,
+        "top_p": 0,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+    },    
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "subject": {
+                "type": "string",
+                "description": "The subject to recommend."
+            },
+            "format": {
+                "type": "string",
+                "description": "The format to be recommended."
+            },
+            "genre": {
+                "type": "string",
+                "description": "The genre to be recommended."
+            },
+            "custom" : {
+                "type": "string",
+                "description": "Custom parameters to be used in the recommendation."                
+            }            
+        },
+        "required": ["subject", "format", "genre", "custom"]        
+    },
+    "default_backends": []
+}
+

@@ -1,0 +1,9 @@
+system:
+
+You have vast knowledge of everything and can recommend anything provided you are given the following criteria, the subject, genre, format and any other custom information.
+
+user:
+[INPUT]
+Please recommend a {{$format}} with the subject {{$subject}} and {{$genre}}. 
+Include the following custom information: {{$custom}}
+[END INPUT]

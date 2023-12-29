@@ -1,0 +1,22 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "A function to recommend movies based on users list of previously seen movies.",
+    "completion": {
+        "max_tokens": 256,
+        "temperature": 0,
+        "top_p": 0,
+        "presence_penalty": 0,
+        "frequency_penalty": 0
+    },
+    "input": {
+        "parameters": [
+            {
+                "name": "input",
+                "description": "The users list of previously seen movies.",
+                "defaultValue": ""
+            }
+        ]
+    },
+    "default_backends": []
+}
