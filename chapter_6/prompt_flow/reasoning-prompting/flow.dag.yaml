@@ -1,0 +1,89 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  statement:
+    type: string
+    default: In a sci-fi film, Alex is a time traveler who decides to go back in
+      time to witness a famous historical battle that took place 100 years ago,
+      which lasted for 10 days. He arrives three days before the battle starts.
+      However, after spending six days in the past, he jumps forward in time by
+      50 years and stays there for 20 days. Then, he travels back to witness the
+      end of the battle. How many days does Alex spend in the past before he
+      sees the end of the battle?
+  expected:
+    type: string
+    default: Alex spent 33 days in the past before he saw the end of the battle.
+outputs:
+  predicted:
+    type: string
+    reference: ${reasoning.output}
+  expected:
+    type: string
+    reference: ${inputs.expected}
+  evaluation_score:
+    type: string
+    reference: ${evaluate.output}
+  statement:
+    type: string
+    reference: ${inputs.statement}
+nodes:
+- name: reasoning
+  use_variants: true
+- name: Embedding_predicted
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${reasoning.output}
+- name: Embedding_expected
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${inputs.expected}
+- name: evaluate
+  type: python
+  source:
+    type: code
+    path: evaluate.py
+  inputs:
+    expected_embedding: ${Embedding_expected.output}
+    predicted_embedding: ${Embedding_predicted.output}
+node_variants:
+  reasoning:
+    default_variant_id: variant_0
+    variants:
+      variant_0:
+        node:
+          type: llm
+          source:
+            type: code
+            path: reasoning.jinja2
+          inputs:
+            temperature: 1
+            max_tokens: 256
+            model: gpt-4-1106-preview
+            statement: ${inputs.statement}
+          connection: OpenAI
+          api: chat
+      variant_1:
+        node:
+          type: llm
+          source:
+            type: code
+            path: reasoning_variant_1.jinja2
+          inputs:
+            temperature: 1
+            max_tokens: 256
+            model: gpt-4-1106-preview
+            statement: ${inputs.statement}
+          connection: OpenAI
+          api: chat

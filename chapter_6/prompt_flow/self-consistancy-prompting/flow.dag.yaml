@@ -1,0 +1,34 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  statement:
+    type: string
+    default: '"In a complex time travel movie plot, Max, a 25 year old scientist,
+      discovers a pattern in historical events that repeats every 40 years. To
+      study this pattern, he starts in the year 2300 and travels back in time in
+      increments of 40 years. He spends 5 years in each time period studying the
+      event. After studying the event in 1900, he jumps forward 80 years to skip
+      a cycle and lands in a new time period. In what year does he find himself
+      after the final jump and how old is he?"'
+outputs:
+  prediction:
+    type: string
+    reference: ${cot.output}
+  statement:
+    type: string
+    reference: ${inputs.statement}
+nodes:
+- name: cot
+  type: llm
+  source:
+    type: code
+    path: cot.jinja2
+  inputs:
+    temperature: 1
+    max_tokens: 256
+    model: gpt-4-1106-preview
+    statement: ${inputs.statement}
+  connection: OpenAI
+  api: chat

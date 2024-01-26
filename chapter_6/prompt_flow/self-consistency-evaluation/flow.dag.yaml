@@ -1,0 +1,32 @@
+id: template_eval_flow
+name: Template Evaluation Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  statement:
+    type: string
+  prediction:
+    type: string
+outputs:
+  results:
+    type: string
+    reference: ${consistency.output}
+nodes:
+- name: Embedding_predicted
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${inputs.prediction}
+- name: consistency
+  type: python
+  source:
+    type: code
+    path: consistency.py
+  inputs:
+    texts: ${inputs.prediction}
+    embeddings: ${Embedding_predicted.output}
+  aggregation: true

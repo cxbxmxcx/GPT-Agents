@@ -1,0 +1,52 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  problem:
+    type: string
+    default: Take the number of days from the start of January to the 15 of February
+      and add 20, then subtract the number of days in March and add the number
+      of days in the year from the end of May to the end of June to find the
+      answer.
+  expected:
+    type: string
+    default: "65"
+  deployment_name:
+    type: string
+    default: gpt-4-1106-preview
+outputs:
+  problem:
+    type: string
+    reference: ${inputs.problem}
+  expected:
+    type: string
+    reference: ${inputs.expected}
+  evaluation:
+    type: string
+    reference: ${evaluate_answer.output}
+  predicted:
+    type: string
+    reference: ${stepwise_planner.output}
+nodes:
+- name: stepwise_planner
+  type: python
+  source:
+    type: code
+    path: stepwise_planner.py
+  inputs:
+    connection: OpenAI
+    deployment_name: ${inputs.deployment_name}
+    input: ${inputs.problem}
+- name: evaluate_answer
+  type: llm
+  source:
+    type: code
+    path: evaluate_answer.jinja2
+  inputs:
+    model: gpt-4-1106-preview
+    expected: ${inputs.expected}
+    problem: ${inputs.problem}
+    predicted: ${stepwise_planner.output}
+  connection: OpenAI
+  api: chat

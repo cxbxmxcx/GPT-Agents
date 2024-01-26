@@ -1,0 +1,63 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  statement:
+    type: string
+    default: "I think the vacation is okay. "
+  expected:
+    type: string
+    default: neutral
+outputs:
+  predicted:
+    type: string
+    reference: ${zero_shot.output}
+  expected:
+    type: string
+    reference: ${inputs.expected}
+  evaluation_score:
+    type: string
+    reference: ${evaluate.output}
+  statement:
+    type: string
+    reference: ${inputs.statement}
+nodes:
+- name: zero_shot
+  type: llm
+  source:
+    type: code
+    path: zero_shot.jinja2
+  inputs:
+    temperature: 1
+    max_tokens: 256
+    model: gpt-4-1106-preview
+    statement: ${inputs.statement}
+  connection: OpenAI
+  api: chat
+- name: Embedding_predicted
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${zero_shot.output}
+- name: Embedding_expected
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${inputs.expected}
+- name: evaluate
+  type: python
+  source:
+    type: code
+    path: evaluate.py
+  inputs:
+    expected_embedding: ${Embedding_expected.output}
+    predicted_embedding: ${Embedding_predicted.output}

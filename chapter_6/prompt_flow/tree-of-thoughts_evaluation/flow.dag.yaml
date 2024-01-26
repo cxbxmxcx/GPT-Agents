@@ -1,0 +1,379 @@
+inputs:
+  statement:
+    type: string
+    default: In a sci-fi film, Alex is a time traveler who decides to go back in
+      time to witness a famous historical battle that took place 100 years ago,
+      which lasted for 10 days. He arrives three days before the battle starts.
+      However, after spending six days in the past, he jumps forward in time by
+      50 years and stays there for 20 days. Then, he travels back to witness the
+      end of the battle. How many days does Alex spend in the past before he
+      sees the end of the battle?
+  deployment_name:
+    type: string
+    default: gpt-4-1106-preview
+  evaluation_function:
+    type: string
+    default: >-
+      You are an expert at problem solving a diverse set of tasks.
+
+
+      Consider the problem statement and determine how confident this problem can be solved by returning a score from 0 to 100. Where a score of 100 means absolute confidence and a score of 0 means no confidence.
+
+      Return just the confidence score and nothing else.
+outputs:
+  statement:
+    type: string
+    reference: ${inputs.statement}
+  node1:
+    type: string
+    reference: ${node_1.output}
+  node2:
+    type: string
+    reference: ${node_2.output}
+  node3:
+    type: string
+    reference: ${node_3.output}
+  answer_1_1:
+    type: string
+    reference: ${answer_1_1.output}
+  answer_1_2:
+    type: string
+    reference: ${answer_1_2.output}
+  answer_1_3:
+    type: string
+    reference: ${answer_1_3.output}
+  answer_2_1:
+    type: string
+    reference: ${answer_2_1.output}
+  answer_2_2:
+    type: string
+    reference: ${answer_2_2.output}
+  answer_2_3:
+    type: string
+    reference: ${answer_2_3.output}
+  answer_3_1:
+    type: string
+    reference: ${answer_3_1.output}
+  answer_3_2:
+    type: string
+    reference: ${answer_3_2.output}
+  answer_3_3:
+    type: string
+    reference: ${answer_3_3.output}
+nodes:
+- name: experts
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${inputs.statement}
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: >-
+      Imagine three different experts are answering this question.
+
+      All experts will write down all the steps of their answer, 
+
+      and wrap it in XML tags it <expert1>...</expert1>, <expert2>...</expert2>, and <expert3>...</expert3>.
+
+      Each experts job is to break the users problem down into smaller steps and list the steps in the order to solve them.
+
+      The expert should not attempt to solve the problem, just list the steps. Note: when calculating days in the past be sure to count all days in the past. This includes any forward jumps in time that are still in the past. [INPUT]
+
+      {{$input}}
+
+      [END INPUT]
+    function_name: AnswerAsExperts
+    skill_name: Experts
+    max_tokens: 2000
+    temperature: 1
+    input_node: 0
+    history: " "
+    evaluation_function: ${inputs.evaluation_function}
+- name: split_experts
+  type: python
+  source:
+    type: code
+    path: split_experts.py
+  inputs:
+    experts_text: ${experts.output}
+- name: node_1
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_experts.output}
+    skill_name: Experts
+    function_name: Think
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: >-
+      Imagine three different experts are answering this question.
+
+      All experts will be given a list of steps to solve a problem. Each expert should think through and calculate the output of each step. They should not attempt to solve the problem, just list the output from the steps. Wrap each experts answer in XML tags it <expert1>...</expert1>, <expert2>...</expert2>, and <expert3>...</expert3>.
+
+      [INPUT]
+
+      {{$input}}
+
+      [END INPUT]
+    input_node: 0
+    history: ${inputs.statement}
+    evaluation_function: ${inputs.evaluation_function}
+- name: node_2
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_experts.output}
+    skill_name: Experts
+    function_name: Think
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: >-
+      Imagine three different experts are answering this question.
+
+      All experts will be given a list of steps to solve a problem. Each expert should think through and calculate the output of each step. They should not attempt to solve the problem, just list the output from the steps. Wrap each experts answer in XML tags it <expert1>...</expert1>, <expert2>...</expert2>, and <expert3>...</expert3>.
+
+      [INPUT]
+
+      {{$input}}
+
+      [END INPUT]
+    input_node: 1
+    history: ${inputs.statement}
+    evaluation_function: ${inputs.evaluation_function}
+- name: node_3
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_experts.output}
+    skill_name: Experts
+    function_name: Think
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: >-
+      Imagine three different experts are answering this question.
+
+      All experts will be given a list of steps to solve a problem. Each expert should think through and calculate the output of each step. They should not attempt to solve the problem, just list the output from the steps. Wrap each experts answer in XML tags it <expert1>...</expert1>, <expert2>...</expert2>, and <expert3>...</expert3>.
+
+      [INPUT]
+
+      {{$input}}
+
+      [END INPUT]
+    input_node: 2
+    history: ${inputs.statement}
+    evaluation_function: ${inputs.evaluation_function}
+- name: split_steps_1
+  type: python
+  source:
+    type: code
+    path: split_experts.py
+  inputs:
+    experts_text: ${node_1.output}
+- name: split_steps_2
+  type: python
+  source:
+    type: code
+    path: split_experts.py
+  inputs:
+    experts_text: ${node_2.output}
+- name: split_steps_3
+  type: python
+  source:
+    type: code
+    path: split_experts.py
+  inputs:
+    experts_text: ${node_3.output}
+- name: answer_1_1
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_1.output}
+    input_node: 0
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}
+- name: answer_1_2
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_1.output}
+    input_node: 1
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}
+- name: answer_1_3
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_1.output}
+    input_node: 2
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}
+- name: answer_2_1
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_2.output}
+    input_node: 0
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}
+- name: answer_2_2
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_2.output}
+    input_node: 1
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}
+- name: answer_2_3
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_2.output}
+    input_node: 2
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}
+- name: answer_3_1
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_3.output}
+    input_node: 0
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}
+- name: answer_3_2
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_3.output}
+    input_node: 1
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}
+- name: answer_3_3
+  type: python
+  source:
+    type: code
+    path: semantic_function.py
+  inputs:
+    connection: OpenAI
+    input: ${split_steps_3.output}
+    input_node: 2
+    history: ${inputs.statement}
+    function_name: Answer
+    skill_name: Experts
+    max_tokens: 1000
+    temperature: 1
+    deployment_name: ${inputs.deployment_name}
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
+    evaluation_function: ${inputs.evaluation_function}

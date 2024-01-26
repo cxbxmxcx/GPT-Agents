@@ -1,0 +1,79 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  statement:
+    type: string
+    default: >-
+      Back to the Future (1985)
+
+          Setting: 1985 and 1955 in Hill Valley, California.
+          Main Characters: Marty McFly (Michael J. Fox), Dr. Emmett "Doc" Brown (Christopher Lloyd).
+          Plot Points:
+              Marty McFly is accidentally sent back to 1955 in a time-traveling DeLorean invented by his friend, Doc Brown.
+              Marty meets his future parents in high school and accidentally alters the course of their romance.
+              He seeks the 1955 version of Doc Brown to help him return to 1985.
+              Marty must repair his parents' relationship to ensure his own existence.
+              He successfully returns to 1985, finding some positive changes in his family.
+              The film ends with Doc taking Marty and his girlfriend, Jennifer, to the future to address a problem with their children.
+  expected:
+    type: string
+    default: Marty traveld back in time 30 years.
+  context:
+    type: string
+    default: How far did Marty travel back in time in the movie Back to the Future
+      (1985)
+outputs:
+  predicted:
+    type: string
+    reference: ${question_answer.output}
+  expected:
+    type: string
+    reference: ${inputs.expected}
+  evaluation_score:
+    type: string
+    reference: ${evaluate.output}
+  statement:
+    type: string
+    reference: ${inputs.statement}
+nodes:
+- name: question_answer
+  type: llm
+  source:
+    type: code
+    path: question_answer.jinja2
+  inputs:
+    temperature: 1
+    max_tokens: 256
+    model: gpt-4-1106-preview
+    statement: ${inputs.statement}
+    context: ${inputs.context}
+  connection: OpenAI
+  api: chat
+- name: Embedding_predicted
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${question_answer.output}
+- name: Embedding_expected
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${inputs.expected}
+- name: evaluate
+  type: python
+  source:
+    type: code
+    path: evaluate.py
+  inputs:
+    expected_embedding: ${Embedding_expected.output}
+    predicted_embedding: ${Embedding_predicted.output}

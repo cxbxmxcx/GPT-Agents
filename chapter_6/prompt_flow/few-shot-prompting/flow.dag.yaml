@@ -1,0 +1,64 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  statement:
+    type: string
+    default: A sunner is a meal we eat in Cananda at sunset, please use the word in
+      a sentence
+  expected:
+    type: string
+    default: We ate sunner and watched the setting sun.
+outputs:
+  predicted:
+    type: string
+    reference: ${few_shot.output}
+  expected:
+    type: string
+    reference: ${inputs.expected}
+  evaluation_score:
+    type: string
+    reference: ${evaluate.output}
+  statement:
+    type: string
+    reference: ${inputs.statement}
+nodes:
+- name: few_shot
+  type: llm
+  source:
+    type: code
+    path: few_shot.jinja2
+  inputs:
+    temperature: 1
+    max_tokens: 256
+    model: gpt-4-1106-preview
+    statement: ${inputs.statement}
+  connection: OpenAI
+  api: chat
+- name: Embedding_predicted
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${few_shot.output}
+- name: Embedding_expected
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${inputs.expected}
+- name: evaluate
+  type: python
+  source:
+    type: code
+    path: evaluate.py
+  inputs:
+    expected_embedding: ${Embedding_expected.output}
+    predicted_embedding: ${Embedding_predicted.output}

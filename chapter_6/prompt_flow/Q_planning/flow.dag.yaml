@@ -1,0 +1,73 @@
+id: template_standard_flow
+name: Template Standard Flow
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  problem:
+    type: string
+    default: Take the number of days from the start of January to the 15 of February
+      and add 20, then subtract the number of days in March and add the number
+      of days in the year from the end of May to the end of June to find the
+      answer.
+  expected:
+    type: string
+    default: 65 days
+  deployment_name:
+    type: string
+    default: gpt-4-1106-preview
+outputs:
+  problem:
+    type: string
+    reference: ${inputs.problem}
+  expected:
+    type: string
+    reference: ${inputs.expected}
+  evaluation:
+    type: string
+    reference: ${evaluate_answer.output}
+  predicted:
+    type: string
+    reference: ${basic_planner.output}
+nodes:
+- name: goal_embedding
+  type: python
+  source:
+    type: package
+    tool: promptflow.tools.embedding.embedding
+  inputs:
+    connection: OpenAI
+    model: text-embedding-ada-002
+    input: ${inputs.problem}
+- name: basic_planner
+  type: python
+  source:
+    type: code
+    path: basic_planner.py
+  inputs:
+    connection: OpenAI
+    deployment_name: ${inputs.deployment_name}
+    input: ${inputs.problem}
+    goal_embedding: ${goal_embedding.output}
+    max_tokens: 2000
+    temperature: 1
+- name: evaluate_answer
+  type: llm
+  source:
+    type: code
+    path: evaluate_answer.jinja2
+  inputs:
+    model: gpt-4-1106-preview
+    expected: ${inputs.expected}
+    problem: ${inputs.problem}
+    predicted: ${basic_planner.output}
+  connection: OpenAI
+  api: chat
+- name: update_memory
+  type: python
+  source:
+    type: code
+    path: update_memory.py
+  inputs:
+    goal_embedding: ${goal_embedding.output}
+    q_value: ${evaluate_answer.output}
+    plan: ${basic_planner.output}
