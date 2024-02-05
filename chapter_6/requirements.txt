@@ -5,3 +5,4 @@ langchain
 semantic-kernel
 langchainhub
 wikipedia
+chromadb

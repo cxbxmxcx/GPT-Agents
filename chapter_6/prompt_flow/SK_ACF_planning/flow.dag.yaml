@@ -11,10 +11,13 @@ inputs:
       answer.
   expected:
     type: string
-    default: 65 days
+    default: 66 days
   deployment_name:
     type: string
     default: gpt-4-1106-preview
+  feedback:
+    type: string
+    default: " "
 outputs:
   problem:
     type: string
@@ -27,29 +30,23 @@ outputs:
     reference: ${evaluate_answer.output}
   predicted:
     type: string
-    reference: ${basic_planner.output}
+    reference: ${planner.output}
+  feedback:
+    type: string
+    reference: ${give_feedback.output}
 nodes:
-- name: goal_embedding
-  type: python
-  source:
-    type: package
-    tool: promptflow.tools.embedding.embedding
-  inputs:
-    connection: OpenAI
-    model: text-embedding-ada-002
-    input: ${inputs.problem}
-- name: basic_planner
+- name: planner
   type: python
   source:
     type: code
-    path: basic_planner.py
+    path: planner.py
   inputs:
     connection: OpenAI
     deployment_name: ${inputs.deployment_name}
     input: ${inputs.problem}
-    goal_embedding: ${goal_embedding.output}
     max_tokens: 2000
     temperature: 1
+    feedback: ${inputs.feedback}
 - name: evaluate_answer
   type: llm
   source:
@@ -59,15 +56,33 @@ nodes:
     model: gpt-4-1106-preview
     expected: ${inputs.expected}
     problem: ${inputs.problem}
-    predicted: ${basic_planner.output}
+    predicted: ${planner.output}
   connection: OpenAI
   api: chat
-- name: update_memory
+- name: give_feedback
+  type: llm
+  source:
+    type: code
+    path: give_feedback.jinja2
+  inputs:
+    model: gpt-4-1106-preview
+    problem: ${inputs.problem}
+    predicted: ${planner.output}
+    expected: ${inputs.expected}
+    evaluation: ${evaluate_answer.output}
+  connection: OpenAI
+  api: chat
+- name: update_jsonl
   type: python
   source:
     type: code
-    path: update_memory.py
+    path: update_jsonl.py
   inputs:
-    goal_embedding: ${goal_embedding.output}
-    q_value: ${evaluate_answer.output}
-    plan: ${basic_planner.output}
+    problems: ${inputs.problem}
+    evaluations: ${evaluate_answer.output}
+    feedbacks: ${give_feedback.output}
+    output_file: statements.jsonl
+    expected: ${inputs.expected}
+    predicted: ${planner.output}
+    deployment_names: ${inputs.deployment_name}
+  aggregation: true

@@ -22,6 +22,9 @@ outputs:
   solution:
     type: string
     reference: ${calculate_solution.output}
+  statement:
+    type: string
+    reference: ${inputs.statement}
 nodes:
 - name: decompose_steps
   type: llm

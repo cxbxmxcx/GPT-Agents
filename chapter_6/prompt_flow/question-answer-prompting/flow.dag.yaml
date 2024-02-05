@@ -3,7 +3,7 @@ name: Template Standard Flow
 environment:
   python_requirements_txt: requirements.txt
 inputs:
-  statement:
+  context:
     type: string
     default: >-
       Back to the Future (1985)
@@ -20,7 +20,7 @@ inputs:
   expected:
     type: string
     default: Marty traveld back in time 30 years.
-  context:
+  question:
     type: string
     default: How far did Marty travel back in time in the movie Back to the Future
       (1985)
@@ -34,9 +34,12 @@ outputs:
   evaluation_score:
     type: string
     reference: ${evaluate.output}
-  statement:
+  question:
     type: string
-    reference: ${inputs.statement}
+    reference: ${inputs.question}
+  context:
+    type: string
+    reference: ${inputs.context}
 nodes:
 - name: question_answer
   type: llm
@@ -47,8 +50,8 @@ nodes:
     temperature: 1
     max_tokens: 256
     model: gpt-4-1106-preview
-    statement: ${inputs.statement}
     context: ${inputs.context}
+    question: ${inputs.question}
   connection: OpenAI
   api: chat
 - name: Embedding_predicted

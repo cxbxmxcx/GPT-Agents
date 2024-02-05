@@ -5,11 +5,11 @@ import json
 from typing import List
 
 import regex
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+
 from semantic_kernel.kernel import Kernel
+import semantic_kernel as sk
 from semantic_kernel.orchestration.context_variables import ContextVariables
-import pickle
+
 
 class Plan:
     """A simple plan object for the Semantic Kernel"""
@@ -34,106 +34,7 @@ Each subtask must be from within the [AVAILABLE FUNCTIONS] list. Do not use any 
 Base your decisions on which functions to use from the description and the name of the function.
 Sometimes, a function may take arguments. Provide them if necessary.
 The plan should be as short as possible.
-For example:
-
-[AVAILABLE FUNCTIONS]
-EmailConnector.LookupContactEmail
-description: looks up the a contact and retrieves their email address
-args:
-- name: the name to look up
-
-WriterSkill.EmailTo
-description: email the input text to a recipient
-args:
-- input: the text to email
-- recipient: the recipient's email address. Multiple addresses may be included if separated by ';'.
-
-WriterSkill.Translate
-description: translate the input to another language
-args:
-- input: the text to translate
-- language: the language to translate to
-
-WriterSkill.Summarize
-description: summarize input text
-args:
-- input: the text to summarize
-
-FunSkill.Joke
-description: Generate a funny joke
-args:
-- input: the input to generate a joke about
-
-[GOAL]
-"Tell a joke about cars. Translate it to Spanish"
-
-[OUTPUT]
-    {
-        "input": "cars",
-        "subtasks": [
-            {"function": "FunSkill.Joke"},
-            {"function": "WriterSkill.Translate", "args": {"language": "Spanish"}}
-        ]
-    }
-
-[AVAILABLE FUNCTIONS]
-WriterSkill.Brainstorm
-description: Brainstorm ideas
-args:
-- input: the input to brainstorm about
-
-EdgarAllenPoeSkill.Poe
-description: Write in the style of author Edgar Allen Poe
-args:
-- input: the input to write about
-
-WriterSkill.EmailTo
-description: Write an email to a recipient
-args:
-- input: the input to write about
-- recipient: the recipient's email address.
-
-WriterSkill.Translate
-description: translate the input to another language
-args:
-- input: the text to translate
-- language: the language to translate to
-
-[GOAL]
-"Tomorrow is Valentine's day. I need to come up with a few date ideas.
-She likes Edgar Allen Poe so write using his style.
-E-mail these ideas to my significant other. Translate it to French."
-Be sure to only output the JSON plan, nothing else. If you cannot complete the plan, output an empty JSON object.
-[OUTPUT]
-    {
-        "input": "Valentine's Day Date Ideas",
-        "subtasks": [
-            {"function": "WriterSkill.Brainstorm"},
-            {"function": "EdgarAllenPoeSkill.Poe"},
-            {"function": "WriterSkill.EmailTo", "args": {"recipient": "significant_other"}},
-            {"function": "WriterSkill.Translate", "args": {"language": "French"}}
-        ]
-    }
-
-[AVAILABLE FUNCTIONS]
-{{$available_functions}}
-
-[GOAL]
-{{$goal}}
-
-[OUTPUT]
-"""
-
-DECIDE_PROMPT = """
-You are a decision planner for the Semantic Kernel.
-Your job is to determine the best plan for a given [GOAL].
-You will be given a list of previous plans that were created for similar goals.
-You must decide which of these plans is the best to use for the current goal.
-Use the [GOAL] and the [OUTPUT] of each plan to determine which plan is the best.
-Each subtask must be from within the list of [AVAILABLE FUNCTIONS]. Do not allow any functions that are not in the list.
-Base your decisions on which functions to use from the description and the name of the function.
-Sometimes, a function may take arguments. Provide them if necessary.
-The plan should be as short as possible.
+You will also be given a list of corrective, suggestive and epistemic feedback from previous plans to help you make your decision.
 For example:
 
 [AVAILABLE FUNCTIONS]
@@ -218,57 +119,20 @@ E-mail these ideas to my significant other. Translate it to French."
 [AVAILABLE FUNCTIONS]
 {{$available_functions}}
 
+[AVALIABLE FEEDBACK]
+{{$available_feedback}}
+
 [GOAL]
 {{$goal}}
-
-Return the best plan from the following list of plans:
-[PLANS]
-{{$plans}}
 
 [OUTPUT]
 """
 
 
-class SemanticMemory:
-    def __init__(self):
-        self.memory = []  # This will store tuples of (state_embedding, action, Q_value)
-        self.memory_file = 'memory.pkl'
-        self.load_memory()
-
-    def find_similar_states(self, state_embedding):        
-        # This function finds states in memory that are similar to the current state
-        similarities = [cosine_similarity([state_embedding], [mem[0]])+mem[2] for mem in self.memory]
-        # Sort and return top matches
-        return sorted(zip(self.memory, similarities), key=lambda x: x[1], reverse=True)[:3]
-    
-    def update_memory(self, state_embedding, action, q_value):
-        self.memory.append((state_embedding, action, q_value))
-        self.save_memory()
-        
-    def save_memory(self):
-        self._save_to_file(self.memory_file)
-        
-    def load_memory(self):
-        self._load_from_file(self.memory_file)
-    
-    def _save_to_file(self, filename):
-        with open(filename, 'wb') as file:
-            pickle.dump(self.memory, file)
-
-    def _load_from_file(self, filename):
-        try:
-            with open(filename, 'rb') as file:            
-                self.memory = pickle.load(file)
-        except:
-            self.memory = []
-
-
-class QPlanner:
-    def __init__(self):
-        self.semantic_memory = SemanticMemory()
-   
-    def update_memory(self, state_embedding, action, q_value):
-        self.semantic_memory.update_memory(state_embedding, action, q_value)
+class ACFPlanner:
+    """
+    Basic JSON-based planner for the Semantic Kernel.
+    """
 
     def _create_available_functions_string(self, kernel: Kernel) -> str:
         """
@@ -312,42 +176,42 @@ class QPlanner:
             available_functions_string += "\n"
 
         return available_functions_string
+    
+    # async def _get_available_feedback(self, kernel: Kernel, goal) -> str:
+    #     """
+    #     Given an instance of the Kernel, create the [AVAILABLE FEEDBACK]
+    #     string for the prompt.
+    #     """        
+    #     if isinstance(kernel.memory, sk.memory.null_memory.NullMemory):
+    #         raise ValueError("Memory store is not available")
+        
+    #     results = await kernel.memory.search_async("acf", goal, 5, .5)
+    #     #return the results as a string with a newline between each result
+    #     return "\n".join(results)   
 
     async def create_plan_async(
         self,
         goal: str,
-        goal_embedding: List[float],
+        feedback: str,        
         kernel: Kernel,
         prompt: str = PROMPT,
-        decide_plan_prompt: str = DECIDE_PROMPT,
-        max_tokens: int = 1000,
-        temperature: float = 0.8,
-    ) -> Plan: 
-        available_functions_string = self._create_available_functions_string(kernel)
-        
-        previous = self.semantic_memory.find_similar_states(goal_embedding)
-        if len(previous) > 0:
-            plans = []
-            for previous_state, similarity in previous:
-                plans.append(Plan(prompt=prompt, goal=goal, plan=previous_state[1]))
-                
-            decider = kernel.create_semantic_function(decide_plan_prompt)
-            context = ContextVariables()
-            # Add the goal to the context
-            context["goal"] = goal
-            context["available_functions"] = available_functions_string
-            context["plans"] = plans
-            generated_plan = await decider.invoke_async(variables=context)
-            return Plan(prompt=prompt, goal=goal, plan=generated_plan)
-        
+    ) -> Plan:
+        """
+        Creates a plan for the given goal based off the functions that
+        are available in the kernel.
+        """  
         # Create the semantic function for the planner with the given prompt
-        planner = kernel.create_semantic_function(prompt, max_tokens=max_tokens, temperature=temperature)        
+        planner = kernel.create_semantic_function(prompt, max_tokens=1000, temperature=0.8)
+
+        available_functions_string = self._create_available_functions_string(kernel)
+        available_feedback_string = feedback        
 
         # Create the context for the planner
         context = ContextVariables()
         # Add the goal to the context
         context["goal"] = goal
         context["available_functions"] = available_functions_string
+        context["available_feedback"] = available_feedback_string
         generated_plan = await planner.invoke_async(variables=context)
         return Plan(prompt=prompt, goal=goal, plan=generated_plan)
 

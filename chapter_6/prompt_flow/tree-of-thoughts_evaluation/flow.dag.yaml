@@ -14,12 +14,22 @@ inputs:
   evaluation_function:
     type: string
     default: >-
+      system:
+
       You are an expert at problem solving a diverse set of tasks.
 
 
-      Consider the problem statement and determine how confident this problem can be solved by returning a score from 0 to 100. Where a score of 100 means absolute confidence and a score of 0 means no confidence.
+      Consider the problem statement and determine how confident this problem can be solved given the suggested plan by returning a score from 0 to 100. Where a score of 100 means absolute confidence and a score of 0 means no confidence.
 
       Return just the confidence score and nothing else.
+
+      User:
+
+      [INPUT]
+
+      {{$input}}
+
+      [END INPUT]
 outputs:
   statement:
     type: string
@@ -79,7 +89,9 @@ nodes:
 
       Each experts job is to break the users problem down into smaller steps and list the steps in the order to solve them.
 
-      The expert should not attempt to solve the problem, just list the steps. Note: when calculating days in the past be sure to count all days in the past. This includes any forward jumps in time that are still in the past. [INPUT]
+      The expert should not attempt to solve the problem, just list the steps. Note: when calculating days in the past be sure to count all days in the past. This includes any forward jumps in time that are still in the past. 
+
+      [INPUT]
 
       {{$input}}
 

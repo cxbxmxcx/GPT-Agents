@@ -70,9 +70,7 @@ nodes:
 
       Each experts job is to break the users problem down into smaller steps and list the steps in the order to solve them.
 
-      The expert should not attempt to solve the problem, just list the steps.
-      Note: when calculating days in the past be sure to count all days in the past. This includes any forward jumps in time that are still in the past.
-      [INPUT]
+      The expert should not attempt to solve the problem, just list the steps. Note: when calculating days in the past be sure to count all days in the past. This includes any forward jumps in time that are still in the past. [INPUT]
 
       {{$input}}
 
@@ -201,13 +199,10 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
 - name: answer_1_2
   type: python
   source:
@@ -223,13 +218,10 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
 - name: answer_1_3
   type: python
   source:
@@ -245,13 +237,10 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
 - name: answer_2_1
   type: python
   source:
@@ -267,13 +256,10 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
 - name: answer_2_2
   type: python
   source:
@@ -289,13 +275,10 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
 - name: answer_2_3
   type: python
   source:
@@ -311,13 +294,10 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
 - name: answer_3_1
   type: python
   source:
@@ -333,13 +313,10 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
 - name: answer_3_2
   type: python
   source:
@@ -355,13 +332,10 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]
 - name: answer_3_3
   type: python
   source:
@@ -377,12 +351,7 @@ nodes:
     max_tokens: 1000
     temperature: 1
     deployment_name: ${inputs.deployment_name}
-    semantic_function: >-
-      You are excellent at collecting the steps for a given problem and
-      determining and then providing a final answer.
-      Use the steps to solve the problem and provide your answer in a single sentence.
-      [INPUT]
-      {{$input}}
-      [END INPUT]
-
-
+    semantic_function: You are excellent at collecting the steps for a given problem
+      and determining and then providing a final answer. Use the steps to solve
+      the problem and provide your answer in a single sentence. [INPUT]
+      {{$input}} [END INPUT]

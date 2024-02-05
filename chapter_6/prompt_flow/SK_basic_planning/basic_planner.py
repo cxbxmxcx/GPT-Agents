@@ -21,12 +21,7 @@ from typing import Union, List
 
 @tool
 def my_python_tool(
-    input: str,   
-    # semantic_function: str,
-    # function_name: str,
-    # skill_name: str,
-    # max_tokens: int,
-    # temperature: float,
+    input: str,
     deployment_name: str,
     connection: Union[OpenAIConnection, AzureOpenAIConnection],
 ) -> str:

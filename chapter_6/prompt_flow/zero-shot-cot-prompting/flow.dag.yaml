@@ -37,7 +37,6 @@ nodes:
     path: cot.jinja2
   inputs:
     temperature: 1
-    max_tokens: 256
     model: gpt-4-1106-preview
     statement: ${inputs.statement}
   connection: OpenAI

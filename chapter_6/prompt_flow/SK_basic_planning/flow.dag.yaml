@@ -6,7 +6,8 @@ inputs:
   problem:
     type: string
     default: Take the number of days from the start of January to the 15 of February
-      and add 20, then subtract the number of days in March and add the number of days in the year from the end of May to the end of June to find the
+      and add 20, then subtract the number of days in March and add the number
+      of days in the year from the end of May to the end of June to find the
       answer.
   expected:
     type: string

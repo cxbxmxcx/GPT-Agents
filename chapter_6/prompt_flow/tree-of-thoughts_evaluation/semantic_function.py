@@ -42,9 +42,9 @@ def my_python_tool(
     
     if isinstance(connection, AzureOpenAIConnection):
         chat = AzureChatCompletion(
-            deployment_name,
-            connection.api_base,
-            connection.api_key,           
+            deployment_name=deployment_name,
+            endpoint=connection.api_base,
+            api_key=connection.api_key,           
         )
         kernel.add_chat_service("chat_completion", chat)
     elif isinstance(connection, OpenAIConnection):
@@ -68,13 +68,24 @@ def my_python_tool(
                                                  top_p=0.5)
 
     async def main():
-        query = f"{history}\n{input}"
-        try:
-            eval = int((await evaluation.invoke_async(query)).result)
-            if eval > 25:
-                return await function.invoke_async(query)
-        except Exception as e:
-            raise Exception("Evaluation failed", e)
+        if history is None or history == " ":
+            # No history just execute the function
+            query = f"problem statement:{input}"
+            return await function.invoke_async(query)
+        else:
+            query = f"""
+            problem statement:
+            {history}
+                        
+            plan:
+            {input}
+            """
+            try:
+                eval = int((await evaluation.invoke_async(query)).result)
+                if eval > 25:
+                    return await function.invoke_async(query)
+            except Exception as e:
+                raise Exception("Evaluation failed", e)
               
 
     # Run the event loop

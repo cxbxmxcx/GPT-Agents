@@ -1,0 +1,19 @@
+graph TD
+    A[Student Submission] --> B[Assessment of Submission]
+    B --> C{Feedback Type}
+    C -->|Corrective| D[Corrective Feedback]
+    C -->|Suggestive| E[Suggestive Feedback]
+    C -->|Epistemic| F[Epistemic Questions]
+    C -->|Confirmatory| G[Positive Reinforcement]
+    D --> H[Guidance for Correction]
+    E --> I[Suggestions for Improvement]
+    F --> J[Encourage Reflection]
+    G --> K[Encourage Repetition of Success]
+    H --> L[Revised Submission]
+    I --> L
+    J --> L
+    K -.-> L
+    L --> M{Assessment of Revised Submission}
+    M -->|Satisfactory| N[Learning Outcome Achieved]
+    M -->|Unsatisfactory| O[Further Adaptive Feedback]
+    O -.-> C
