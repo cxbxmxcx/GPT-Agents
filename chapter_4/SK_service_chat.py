@@ -1,104 +1,155 @@
-# Copyright (c) Microsoft. All rights reserved.
-
 import asyncio
-import os
-from typing import Tuple
 
 import semantic_kernel as sk
 import semantic_kernel.connectors.ai.open_ai as sk_oai
-from semantic_kernel.connectors.ai.open_ai.semantic_functions.open_ai_chat_prompt_template import (
-    OpenAIChatPromptTemplate,
-)
+from semantic_kernel.connectors.ai.open_ai import OpenAIChatPromptTemplate
 from semantic_kernel.connectors.ai.open_ai.utils import (
-    chat_completion_with_function_call,
-    get_function_calling_object,
+    chat_completion_with_tool_call,
+    get_tool_call_object,
 )
-from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion, OpenAIChatCompletion
-#from skills.Movies.tmdb import TMDbService
-from skills.Movies.tmdb_v2 import TMDbService
+from semantic_kernel.contents.chat_history import ChatHistory
 
-system_message = "You are a helpful AI assistant."
+from plugins.Movies.tmdb import TMDbService
 
+selected_service = "OpenAI"
 kernel = sk.Kernel()
 
-useAzureOpenAI = False
+service_id = None
+if selected_service == "OpenAI":
+    from semantic_kernel.connectors.ai.open_ai import OpenAIChatCompletion
 
-# Configure AI service used by the kernel
-if useAzureOpenAI:
+    api_key, org_id = sk.openai_settings_from_dot_env()
+    service_id = "oai_chat_gpt"
+    model_id = "gpt-4-1106-preview"
+    kernel.add_service(
+        OpenAIChatCompletion(
+            service_id=service_id,
+            ai_model_id=model_id,
+            api_key=api_key,
+            org_id=org_id,
+        ),
+    )
+elif selected_service == "AzureOpenAI":
+    from semantic_kernel.connectors.ai.open_ai import AzureChatCompletion
+
     deployment, api_key, endpoint = sk.azure_openai_settings_from_dot_env()
-    azure_chat_service = AzureChatCompletion(deployment_name="turbo", endpoint=endpoint, api_key=api_key)   # set the deployment name to the value of your chat model
-    kernel.add_chat_service("chat_completion", azure_chat_service)
-else:
-    api_key, _ = sk.openai_settings_from_dot_env()
-    oai_chat_service = OpenAIChatCompletion(ai_model_id="gpt-4-1106-preview", api_key=api_key)
-    kernel.add_chat_service("chat-gpt", oai_chat_service)
+    service_id = "aoai_chat_completion"
+    kernel.add_service(
+        AzureChatCompletion(
+            service_id=service_id,
+            deployment_name=deployment,
+            endpoint=endpoint,
+            api_key=api_key,
+        ),
+    )
 
+tmdb_service = kernel.import_plugin_from_object(TMDbService(), "TMDBService")
 
-kernel.import_skill(TMDbService(), skill_name="TMDbService")
+# set up the execution settings
+if selected_service == "OpenAI":
+    execution_settings = sk_oai.OpenAIChatPromptExecutionSettings(
+        service_id=service_id,
+        ai_model_id=model_id,
+        max_tokens=2000,
+        temperature=0.7,
+        top_p=0.8,
+        tool_choice="auto",
+        tools=get_tool_call_object(kernel, {"exclude_plugin": ["ChatBot"]}),
+    )
+elif selected_service == "AzureOpenAI":
+    execution_settings = sk_oai.OpenAIChatPromptExecutionSettings(
+        service_id=service_id,
+        ai_model_id=deployment,
+        max_tokens=2000,
+        temperature=0.7,
+        top_p=0.8,
+        tool_choice="auto",
+        tools=get_tool_call_object(kernel, {"exclude_plugin": ["ChatBot"]}),
+    )
 
-# enabling or disabling function calling is done by setting the function_call parameter for the completion.
-# when the function_call parameter is set to "auto" the model will decide which function to use, if any.
-# if you only want to use a specific function, set the name of that function in this parameter,
-# the format for that is 'SkillName-FunctionName', (i.e. 'math-Add').
-# if the model or api version do not support this you will get an error.
+# OpenAIChatPromptTemplate
+# prompt_template_config = sk.PromptTemplateConfig(
+#     template="{{$user_input}}",
+#     name="Chat",
+#     template_format="semantic-kernel",
+#     input_variables=[
+#         InputVariable(
+#             name="user_input", description="The user input", is_required=True
+#         ),
+#         InputVariable(
+#             name="history",
+#             description="The history of the conversation",
+#             is_required=True,
+#             default="",
+#         ),
+#     ],
+#     execution_settings={"default": execution_settings},
+# )
+
 prompt_config = sk.PromptTemplateConfig.from_completion_parameters(
     max_tokens=2000,
     temperature=0.7,
     top_p=0.8,
     function_call="auto",
-    chat_system_prompt=system_message,
+    chat_system_prompt="You are a chat bot that recommends movies and TV Shows.",
 )
 prompt_template = OpenAIChatPromptTemplate(
     "{{$user_input}}", kernel.prompt_template_engine, prompt_config
 )
 
-function_config = sk.SemanticFunctionConfig(prompt_config, prompt_template)
-chat_function = kernel.register_semantic_function("ChatBot", "Chat", function_config)
 
-# calling the chat, you could add a overloaded version of the settings here,
-# to enable or disable function calling or set the function calling to a specific skill.
-# see the openai_function_calling example for how to use this with a unrelated function definition
-filter = {"exclude_skill": ["ChatBot"]}
-functions = get_function_calling_object(kernel, filter)
+history = ChatHistory()
+
+history.add_system_message("You recommend movies and TV Shows.")
+history.add_user_message("Hi there, who are you?")
+history.add_assistant_message(
+    "I am Rudy, the recommender chat bot. I'm trying to figure out what people need."
+)
+
+chat_function = kernel.create_function_from_prompt(
+    prompt_template_config=prompt_template,
+    plugin_name="ChatBot",
+    function_name="Chat",
+)
 
 
-async def chat(context: sk.SKContext) -> Tuple[bool, sk.SKContext]:
+async def chat() -> bool:
     try:
         user_input = input("User:> ")
-        context.variables["user_input"] = user_input
     except KeyboardInterrupt:
         print("\n\nExiting chat...")
-        return False, None
+        return False
     except EOFError:
         print("\n\nExiting chat...")
-        return False, None
+        return False
 
     if user_input == "exit":
         print("\n\nExiting chat...")
-        return False, None
-
-    context = await chat_completion_with_function_call(
-        kernel,
-        chat_skill_name="ChatBot",
-        chat_function_name="Chat",
-        context=context,
-        functions=functions,
+        return False
+    arguments = sk.KernelArguments(
+        user_input=user_input,
+        history=("\n").join([f"{msg.role}: {msg.content}" for msg in history]),
     )
-    print(f"Agent:> {context.result}")
-    return True, context
+    result = await chat_completion_with_tool_call(
+        kernel=kernel,
+        arguments=arguments,
+        chat_plugin_name="ChatBot",
+        chat_function_name="Chat",
+        chat_history=history,
+    )
+    print(f"GPT Agent:> {result}")
+    return True
 
 
 async def main() -> None:
     chatting = True
-    context = kernel.create_new_context()
-    
     print(
-        "Welcome to your first GPT Agent\
+        "Welcome to the chat bot!\
 \n  Type 'exit' to exit.\
-\n  Ask to get a list of currently playing movies by genre."
+\n  Try a math question to see the function calling in action (i.e. what is 3+3?)."
     )
     while chatting:
-        chatting, context = await chat(context)
+        chatting = await chat()
 
 
 if __name__ == "__main__":
