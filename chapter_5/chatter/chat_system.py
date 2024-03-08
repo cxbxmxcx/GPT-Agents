@@ -2,7 +2,8 @@ from datetime import datetime
 
 from peewee import *
 
-from chatter.agent_plugins import AgentManager
+from chatter.action_manager import ActionManager
+from chatter.agent_manager import AgentManager
 from chatter.chat_models import (
     ChatParticipants,
     Message,
@@ -17,6 +18,14 @@ class ChatSystem:
     def __init__(self):
         self.agent_manager = AgentManager()
         self.load_agents()
+
+        self.action_manager = ActionManager()
+        self.actions = self.load_actions()
+
+    def load_actions(self):
+        actions = self.action_manager.get_actions()
+        print(f"Loaded {len(actions)} actions.")
+        return actions
 
     def load_agents(self):
         agents = self.agent_manager.get_agent_names()
@@ -37,7 +46,11 @@ class ChatSystem:
                 )
 
     def get_agent(self, agent_name):
-        return self.agent_manager.get_agent(agent_name)
+        agent = self.agent_manager.get_agent(agent_name)
+        if not agent:
+            raise ValueError(f"Agent '{agent_name}' not found.")
+        agent.actions = self.action_manager.get_actions()
+        return agent
 
     def get_agent_names(self):
         return self.agent_manager.get_agent_names()

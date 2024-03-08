@@ -5,7 +5,7 @@ from semantic_kernel.functions.kernel_arguments import KernelArguments
 from semantic_kernel.prompt_template.input_variable import InputVariable
 from semantic_kernel.prompt_template.prompt_template_config import PromptTemplateConfig
 
-from chatter.agent_plugins import BaseAgent
+from chatter.agent_manager import BaseAgent
 from chatter.utils import async_to_sync_generator
 
 

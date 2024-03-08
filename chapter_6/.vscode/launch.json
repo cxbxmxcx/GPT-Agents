@@ -5,11 +5,11 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Module",
+            "name": "Python Debugger: Current File",
             "type": "debugpy",
             "request": "launch",
-            "module": "streamlit",
-            "args": ["run", "chatter_ui.py"],
+            "program": "${file}",
+            "console": "integratedTerminal"
         }
     ]
 }

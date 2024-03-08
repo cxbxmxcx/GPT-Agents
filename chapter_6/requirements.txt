@@ -1,8 +1,11 @@
-promptflow 
-promptflow-tools
-scipy
-langchain
-semantic-kernel
-langchainhub
-wikipedia
+scikit-learn
+plotly
+openai
+python-dotenv
 chromadb
+langchain
+unstructured
+tiktoken
+faiss-cpu
+# faiss-gpu
+networkx

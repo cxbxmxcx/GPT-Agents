@@ -1,0 +1,8 @@
+promptflow 
+promptflow-tools
+scipy
+langchain
+semantic-kernel
+langchainhub
+wikipedia
+chromadb
