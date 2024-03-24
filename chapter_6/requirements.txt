@@ -5,7 +5,3 @@ python-dotenv
 chromadb
 langchain
 unstructured
-tiktoken
-faiss-cpu
-# faiss-gpu
-networkx

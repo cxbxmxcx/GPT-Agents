@@ -65,6 +65,6 @@ while True:
     
     print("Top Matched Documents:")
     for id, score, text in search_results:
-        print(f"ID:{id} TEXT: {text} SCORE: {round(score, 2)}")
+        print(f"ID:{id} TEXT: {text} DISTANCE: {round(score, 2)}")
 
     print("\n")
