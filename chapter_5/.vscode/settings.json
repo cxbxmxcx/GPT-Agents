@@ -7,9 +7,5 @@
       },
       "editor.defaultFormatter": "charliermarsh.ruff"
     },
-    "python.testing.pytestArgs": [
-      "chatter"
-    ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.terminal.activateEnvironment": true
   }

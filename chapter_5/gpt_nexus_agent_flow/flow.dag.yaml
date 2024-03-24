@@ -1,0 +1,32 @@
+$schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
+environment:
+  python_requirements_txt: requirements.txt
+inputs:
+  agent_name:
+    type: string
+    default: OpenAIAgent
+  agent_profile:
+    type: string
+    default: Olly
+  agent_actions:
+    type: list
+    default: []
+  user_input:
+    type: string
+    default: Spell CLOCK
+outputs:
+  output_from_agent:
+    type: string
+    reference: ${call_agent.output}
+nodes:
+- name: call_agent
+  type: python
+  source:
+    type: package
+    tool: agent_connector.tools.agent_connector_tool.call_agent
+  inputs:
+    connection: GPT Nexus
+    agent_name: ${inputs.agent_name}
+    agent_profile: ${inputs.agent_profile}
+    agent_actions: ${inputs.agent_actions}
+    user_input: ${inputs.user_input}
