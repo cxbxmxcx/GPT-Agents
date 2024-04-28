@@ -2,7 +2,8 @@ import asyncio
 
 import semantic_kernel as sk
 import semantic_kernel.connectors.ai.open_ai as sk_oai
-from semantic_kernel.connectors.ai.open_ai import OpenAIChatPromptTemplate
+
+# from semantic_kernel.connectors.ai.open_ai import OpenAIChatPromptTemplate
 from semantic_kernel.connectors.ai.open_ai.utils import (
     chat_completion_with_tool_call,
     get_tool_call_object,
