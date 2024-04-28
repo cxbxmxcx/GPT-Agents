@@ -160,3 +160,13 @@ cython_debug/
 #.idea/
 
 **/.promptflow/
+
+*.bin
+*.db
+
+*.sqlite3
+
+OAI_CONFIG_LIST
+
+tmp*
+
