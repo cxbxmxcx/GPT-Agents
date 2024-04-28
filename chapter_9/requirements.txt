@@ -1,0 +1,5 @@
+autogenstudio
+pyautogen
+"crewai[tools]"
+python-dotenv
+langchain
