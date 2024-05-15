@@ -45,14 +45,14 @@ def save_binary_response_content(binary_content):
 
 
 class EventHandler(AssistantEventHandler):
-    def __init__(self) -> None:
+    def __init__(self, logs) -> None:
         super().__init__()
-        self._logs = []
+        self._logs = logs
         self._images = []
         
     @property
     def logs(self):
-        return self._logs
+        return self._logs  
     
     @property
     def images(self):
@@ -62,10 +62,11 @@ class EventHandler(AssistantEventHandler):
     def on_text_created(self, text) -> None:
         print("assistant > ", end="", flush=True)
 
-    # @override
-    # def on_text_delta(self, delta, snapshot):    #     
-    #     # print(delta.value, end="", flush=True)
-    #     self.logs += [delta.value]
+    @override
+    def on_text_delta(self, delta, snapshot):    
+        # print(delta.value, flush=True)
+        if delta.annotations:
+            print(delta.annotations, end="", flush=True)        
         
     def on_image_file_done(self, image_file) -> None:        
         print(image_file, end="", flush=True)
@@ -77,6 +78,8 @@ class EventHandler(AssistantEventHandler):
     def on_tool_call_created(self, tool_call):        
         print(f"\nassistant > {tool_call.type}\n", flush=True)
         self._logs += [f"\nassistant > {tool_call.type}"]
+        if tool_call.type == 'code_interpreter':            
+            self._logs += ["\n```python"]
 
     def on_tool_call_delta(self, delta, snapshot):        
         if delta.type == 'code_interpreter':
@@ -84,9 +87,15 @@ class EventHandler(AssistantEventHandler):
                 print(delta.code_interpreter.input, end="", flush=True)
                 self._logs += [f"{delta.code_interpreter.input}"]
         if delta.code_interpreter.outputs:
-            print("\noutput >", flush=True)
-            self._logs += ["\noutput >"]
+            print("\noutput >", flush=True)            
             for output in delta.code_interpreter.outputs:
                 if output.type == "logs":
                     print(f"{output.logs}", flush=True)
                     self._logs += [f"{output.logs}"]
+            
+            
+    def on_tool_call_done(self, tool_call) -> None:
+        if tool_call.type == 'code_interpreter':
+            self._logs += ["\n```\n"]
+           
+        
