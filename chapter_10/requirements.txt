@@ -1,0 +1,8 @@
+openai
+python-dotenv
+opencv-python
+pandas
+requests
+uvicorn
+fastapi
+watchdog

@@ -1,0 +1,1174 @@
+﻿The Project Gutenberg eBook of Arm of the Law
+    
+This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+Title: Arm of the Law
+
+Author: Harry Harrison
+
+Release date: June 22, 2009 [eBook #29204]
+                Most recently updated: January 5, 2021
+
+Language: English
+
+Credits: Produced by Greg Weeks, Stephen Blundell and the Online
+        Distributed Proofreading Team at https://www.pgdp.net
+
+
+*** START OF THE PROJECT GUTENBERG EBOOK ARM OF THE LAW ***
+
+
+
+
+Produced by Greg Weeks, Stephen Blundell and the Online
+Distributed Proofreading Team at https://www.pgdp.net
+
+
+
+
+
+
+
+
+
+    _How could a robot--a machine, after all--be involved in something
+    like law application and violence? Harry Harrison, who will be
+    remembered for his THE VELVET GLOVE (Nov. 1956) and his more recent
+    TRAINEE FOR MARS (June 1958) tells what happens when a police robot
+    hits an outpost on Mars._
+
+
+ arm
+  of
+ the
+ law
+
+ _by ... Harry Harrison_
+
+
+ At one time--this was before the Robot
+ Restriction Laws--they'd even allowed
+ them to make their own decisions....
+
+
+It was a big, coffin-shaped plywood box that looked like it weighed a
+ton. This brawny type just dumped it through the door of the police
+station and started away. I looked up from the blotter and shouted at
+the trucker's vanishing back.
+
+"What the hell is that?"
+
+"How should I know?" he said as he swung up into the cab. "I just
+deliver, I don't X-ray 'em. It came on the morning rocket from earth is
+all I know." He gunned the truck more than he had to and threw up a
+billowing cloud of red dust.
+
+"Jokers," I growled to myself. "Mars is full of jokers."
+
+When I went over to look at the box I could feel the dust grate between
+my teeth. Chief Craig must have heard the racket because he came out of
+his office and helped me stand and look at the box.
+
+"Think it's a bomb?" he asked in a bored voice.
+
+"Why would anyone bother--particularly with a thing this size? And all
+the way from earth."
+
+He nodded agreement and walked around to look at the other end. There
+was no sender's address anywhere on the outside. Finally we had to dig
+out the crowbar and I went to work on the top. After some prying it
+pulled free and fell off.
+
+That was when we had our first look at Ned. We all would have been a lot
+happier if it had been our last look as well. If we had just put the lid
+back on and shipped the thing back to earth! I know now what they mean
+about Pandora's Box.
+
+But we just stood there and stared like a couple of rubes. Ned lay
+motionless and stared back at us.
+
+"A robot!" the Chief said.
+
+"Very observant; it's easy to see you went to the police academy."
+
+"Ha ha! Now find out what he's doing here."
+
+I hadn't gone to the academy, but this was no handicap to my finding the
+letter. It was sticking up out of a thick book in a pocket in the box.
+The Chief took the letter and read it with little enthusiasm.
+
+"Well, well! United Robotics have the brainstorm that ... _robots,
+correctly used will tend to prove invaluable in police work_ ... they
+want us to co-operate in a field test ... _robot enclosed is the latest
+experimental model; valued at 120,000 credits_."
+
+We both looked back at the robot, sharing the wish that the credits had
+been in the box instead of it. The Chief frowned and moved his lips
+through the rest of the letter. I wondered how we got the robot out of
+its plywood coffin.
+
+Experimental model or not, this was a nice-looking hunk of machinery. A
+uniform navy-blue all over, though the outlet cases, hooks and such were
+a metallic gold. Someone had gone to a lot of trouble to get that
+effect. This was as close as a robot could look to a cop in uniform,
+without being a joke. All that seemed to be missing was the badge and
+gun.
+
+Then I noticed the tiny glow of light in the robot's eye lenses. It had
+never occurred to me before that the thing might be turned on. There was
+nothing to lose by finding out.
+
+"Get out of that box," I said.
+
+The robot came up smooth and fast as a rocket, landing two feet in front
+of me and whipping out a snappy salute.
+
+"Police Experimental Robot, serial number XPO-456-934B, reporting for
+duty, sir."
+
+His voice quivered with alertness and I could almost hear the humming of
+those taut cable muscles. He may have had a stainless steel hide and a
+bunch of wires for a brain--but he spelled rookie cop to me just the
+same. The fact that he was man-height with two arms, two legs and that
+painted-on uniform helped. All I had to do was squint my eyes a bit and
+there stood Ned the Rookie Cop. Fresh out of school and raring to go. I
+shook my head to get rid of the illusion. This was just six feet of
+machine that boffins and brain-boys had turned out for their own
+amusement.
+
+"Relax, Ned," I said. He was still holding the salute. "At ease. You'll
+get a hernia of your exhaust pipe if you stay so tense. Anyways, I'm
+just the sergeant here. That's the Chief of Police over there."
+
+Ned did an about face and slid over to the Chief with that same
+greased-lightning motion. The Chief just looked at him like something
+that sprang out from under the hood of a car, while Ned went through the
+same report routine.
+
+"I wonder if it does anything else beside salute and report," the Chief
+said while he walked around the robot, looking it over like a dog with a
+hydrant.
+
+"The functions, operations and responsible courses of action open to the
+Police Experimental Robots are outlined on pages 184 to 213 of the
+manual." Ned's voice was muffled for a second while he half-dived back
+into his case and came up with the volume mentioned. "A detailed
+breakdown of these will also be found on pages 1035 to 1267 inclusive."
+
+The Chief, who has trouble reading an entire comic page at one sitting,
+turned the 6-inch-thick book over in his hands like it would maybe bite
+him. When he had a rough idea of how much it weighed and a good feel of
+the binding he threw it on my desk.
+
+"Take care of this," he said to me as he headed towards his office. "And
+the robot, too. Do something with it." The Chief's span of attention
+never was great and it had been strained to the limit this time.
+
+I flipped through the book, wondering. One thing I never have had much
+to do with is robots, so I know just as much about them as any Joe in
+the street. Probably less. The book was filled with pages of fine print,
+fancy mathematics, wiring diagrams and charts in nine colors and that
+kind of thing. It needed close attention. Which attention I was not
+prepared to give at the time. The book slid shut and I eyed the newest
+employee of the city of Nineport.
+
+"There is a broom behind the door. Do you know how to use it?"
+
+"Yes, sir."
+
+"In that case you will sweep out this room, raising as small a cloud of
+dust as possible at the same time."
+
+He did a very neat job of it.
+
+I watched 120,000 credits worth of machinery making a tidy pile of butts
+and sand and wondered why it had been sent to Nineport. Probably because
+there wasn't another police force in the solar system that was smaller
+or more unimportant than ours. The engineers must have figured this
+would be a good spot for a field test. Even if the thing blew up, nobody
+would really mind. There would probably be someone along some day to get
+a report on it. Well, they had picked the right spot all right. Nineport
+was just a little bit beyond nowhere.
+
+Which, of course, was why I was there. I was the only real cop on the
+force. They needed at least one to give an illusion of the wheels going
+around. The Chief, Alonzo Craig, had just enough sense to take graft
+without dropping the money. There were two patrolmen. One old and drunk
+most of the time. The other so young the only scar he had was the mark
+of the attram. I had ten years on a metropolitan force, earthside. Why I
+left is nobody's damn business. I have long since paid for any mistakes
+I made there by ending up in Nineport.
+
+Nineport is not a city, it's just a place where people stop. The only
+permanent citizens are the ones who cater to those on the way through.
+Hotel keepers, restaurant owners, gamblers, barkeeps, and the rest.
+
+There is a spaceport, but only some freighters come there. To pick up
+the metal from some of the mines that are still working. Some of the
+settlers still came in for supplies. You might say that Nineport was a
+town that just missed the boat. In a hundred years I doubt if there will
+be enough left sticking of the sand to even tell where it used to be. I
+won't be there either, so I couldn't care less.
+
+I went back to the blotter. Five drunks in the tank, an average night's
+haul. While I wrote them up Fats dragged in the sixth one.
+
+"Locked himself in the ladies' john at the spaceport and resisting
+arrest," he reported.
+
+"D and D. Throw him in with the rest."
+
+Fats steered his limp victim across the floor, matching him step for
+dragging step. I always marveled at the way Fats took care of drunks,
+since he usually had more under his belt than they had. I have never
+seen him falling down drunk or completely sober. About all he was good
+for was keeping a blurred eye on the lockup and running in drunks. He
+did well at that. No matter what they crawled under or on top of, he
+found them. No doubt due to the same shared natural instincts.
+
+Fats clanged the door behind number six and weaved his way back in.
+"What's that?" he asked, peering at the robot along the purple beauty of
+his nose.
+
+"That is a robot. I have forgotten the number his mother gave him at the
+factory so we will call him Ned. He works here now."
+
+"Good for him! He can clean up the tank after we throw the bums out."
+
+"That's _my_ job," Billy said coming in through the front door. He
+clutched his nightstick and scowled out from under the brim of his
+uniform cap. It is not that Billy is stupid, just that most of his
+strength has gone into his back instead of his mind.
+
+"That's Ned's job now because you have a promotion. You are going to
+help me with some of my work."
+
+Billy came in very handy at times and I was anxious that the force
+shouldn't lose him. My explanation cheered him because he sat down by
+Fats and watched Ned do the floor.
+
+That's the way things went for about a week. We watched Ned sweep and
+polish until the station began to take on a positively antiseptic look.
+The Chief, who always has an eye out for that type of thing, found out
+that Ned could file the odd ton of reports and paperwork that cluttered
+his office. All this kept the robot busy, and we got so used to him we
+were hardly aware he was around. I knew he had moved the packing case
+into the storeroom and fixed himself up a cozy sort of robot
+dormitory-coffin. Other than that I didn't know or care.
+
+The operation manual was buried in my desk and I never looked at it. If
+I had, I might have had some idea of the big changes that were in store.
+None of us knew the littlest bit about what a robot can or cannot do.
+Ned was working nicely as a combination janitor-file clerk and should
+have stayed that way. He would have too if the Chief hadn't been so
+lazy. That's what started it all.
+
+It was around nine at night and the Chief was just going home when the
+call came in. He took it, listened for a moment, then hung up.
+
+"Greenback's liquor store. He got held up again. Says to come at once."
+
+"That's a change. Usually we don't hear about it until a month later.
+What's he paying protection money for if China Joe ain't protecting?
+What's the rush now?"
+
+The Chief chewed his loose lip for a while, finally and painfully
+reached a decision.
+
+"You better go around and see what the trouble is."
+
+"Sure," I said reaching for my cap. "But no one else is around, you'll
+have to watch the desk until I get back."
+
+"That's no good," he moaned. "I'm dying from hunger and sitting here
+isn't going to help me any."
+
+"I will go take the report," Ned said, stepping forward and snapping his
+usual well-greased salute.
+
+At first the Chief wasn't buying. You would think the water cooler came
+to life and offered to take over his job.
+
+"How could _you_ take a report?" he growled, putting the wise-guy water
+cooler in its place. But he had phrased his little insult as a question
+so he had only himself to blame. In exactly three minutes Ned gave the
+Chief a summary of the routine necessary for a police officer to make a
+report on an armed robbery or other reported theft. From the glazed look
+in Chief's protruding eyes I could tell Ned had quickly passed the
+boundaries of the Chief's meager knowledge.
+
+"Enough!" the harried man finally gasped. "If you know so much why don't
+you make a report?"
+
+Which to me sounded like another version of "_if you're so damned smart
+why ain't you rich?_" which we used to snarl at the brainy kids in
+grammar school. Ned took such things literally though, and turned
+towards the door.
+
+"Do you mean you wish me to make a report on this robbery?"
+
+"Yes," the Chief said just to get rid of him, and we watched his blue
+shape vanish through the door.
+
+"He must be brighter than he looks," I said. "He never stopped to ask
+where Greenback's store is."
+
+The Chief nodded and the phone rang again. His hand was still resting on
+it so he picked it up by reflex. He listened for a second and you would
+have thought someone was pumping blood out of his heel from the way his
+face turned white.
+
+"The holdup's still on," he finally gasped. "Greenback's delivery boy is
+on the line--calling back to see where we are. Says he's under a table
+in the back room ..."
+
+I never heard the rest of it because I was out the door and into the
+car. There were a hundred things that could happen if Ned got there
+before me. Guns could go off, people hurt, lots of things. And the
+police would be to blame for it all--sending a tin robot to do a cop's
+job. Maybe the Chief had ordered Ned there, but clearly as if the words
+were painted on the windshield of the car, I knew I would be dragged
+into it. It never gets very warm on Mars, but I was sweating.
+
+Nineport has fourteen traffic regulations and I broke all of them before
+I had gone a block. Fast as I was, Ned was faster. As I turned the
+corner I saw him open the door of Greenback's store and walk in. I
+screamed brakes in behind him and arrived just in time to have a gallery
+seat. A shooting gallery at that.
+
+There were two holdup punks, one behind the counter making like a clerk
+and the other lounging off to the side. Their guns were out of sight,
+but blue-coated Ned busting through the door like that was too much for
+their keyed up nerves. Up came both guns like they were on strings and
+Ned stopped dead. I grabbed for my own gun and waited for pieces of
+busted robot to come flying through the window.
+
+Ned's reflexes were great. Which I suppose is what you should expect of
+a robot.
+
+"DROP YOUR GUNS, YOU ARE UNDER ARREST."
+
+He must have had on full power or something, his voice blasted so loud
+my ears hurt. The result was just what you might expect. Both torpedoes
+let go at once and the air was filled with flying slugs. The show
+windows went out with a crash and I went down on my stomach. From the
+amount of noise I knew they both had recoilless .50's. You can't stop
+one of those slugs. They go right through you and anything else that
+happens to be in the way.
+
+Except they didn't seem to be bothering Ned. The only notice he seemed
+to take was to cover his eyes. A little shield with a thin slit popped
+down over his eye lenses. Then he moved in on the first thug.
+
+I knew he was fast, but not that fast. A couple of slugs jarred him as
+he came across the room, but before the punk could change his aim Ned
+had the gun in his hand. That was the end of that. He put on one of the
+sweetest hammer locks I have ever seen and neatly grabbed the gun when
+it dropped from the limp fingers. With the same motion that slipped the
+gun into a pouch he whipped out a pair of handcuffs and snapped them on
+the punk's wrists.
+
+Holdupnik number two was heading for the door by then, and I was waiting
+to give him a warm reception. There was never any need. He hadn't gone
+halfway before Ned slid in front of him. There was a thud when they hit
+that didn't even shake Ned, but gave the other a glazed look. He never
+even knew it when Ned slipped the cuffs on him and dropped him down next
+to his partner.
+
+I went in, took their guns from Ned, and made the arrest official. That
+was all Greenback saw when he crawled out from behind the counter and it
+was all I wanted him to see. The place was a foot deep in broken glass
+and smelled like the inside of a Jack Daniels bottle. Greenback began to
+howl like a wolf over his lost stock. He didn't seem to know any more
+about the phone call than I did, so I grabbed ahold of a pimply looking
+kid who staggered out of the storeroom. He was the one who had made the
+calls.
+
+It turned out to be a matter of sheer stupidity. He had worked for
+Greenback only a few days and didn't have enough brains to realize that
+all holdups should be reported to the protection boys instead of the
+police. I told Greenback to wise up his boy, as look at the trouble that
+got caused. Then pushed the two ex-holdup men out to the car. Ned
+climbed in back with them and they clung together like two waifs in a
+storm. The robot's only response was to pull a first aid kit from his
+hip and fix up a ricochet hole in one of the thugs that no one had
+noticed in the excitement.
+
+       *       *       *       *       *
+
+The Chief was still sitting there with that bloodless look when we
+marched in. I didn't believe it could be done, but he went two shades
+whiter.
+
+"You made the pinch," he whispered. Before I could straighten him out a
+second and more awful idea hit him. He grabbed a handful of shirt on the
+first torpedo and poked his face down. "You with China Joe," he snarled.
+
+The punk made the error of trying to be cute so the Chief let him have
+one on the head with the open hand that set his eyes rolling like
+marbles. When the question got asked again he found the right answer.
+
+"I never heard from no China Joe. We just hit town today and--"
+
+"Freelance, by God," the Chief sighed and collapsed into his chair.
+"Lock 'em up and quickly tell me what in hell happened."
+
+I slammed the gate on them and pointed a none too steady finger at Ned.
+
+"There's the hero," I said. "Took them on single-handed, rassled them
+for a fall and made the capture. He is a one-robot tornado, a power for
+good in this otherwise evil community. And he's bulletproof too." I ran
+a finger over Ned's broad chest. The paint was chipped by the slugs, but
+the metal was hardly scratched.
+
+"This is going to cause me trouble, big trouble," the Chief wailed.
+
+I knew he meant with the protection boys. They did not like punks
+getting arrested and guns going off without their okay. But Ned thought
+the Chief had other worries and rushed in to put them right. "There will
+be no trouble. At no time did I violate any of the Robotic Restriction
+Laws, they are part of my control circuits and therefore fully
+automatic. The men who drew their guns violated both robotic and human
+law when they threatened violence. I did not injure the men--merely
+restrained them."
+
+It was all over the Chief's head, but I liked to think _I_ could follow
+it. And I _had_ been wondering how a robot--a machine--could be involved
+in something like law application and violence. Ned had the answer to
+that one too.
+
+"Robots have been assuming these functions for years. Don't recording
+radar meters pass judgment on human violation of automobile regulations?
+A robot alcohol detector is better qualified to assess the sobriety of a
+prisoner than the arresting officer. At one time robots were even
+allowed to make their own decisions about killing. Before the Robotic
+Restriction Laws automatic gun-pointers were in general use. Their final
+development was a self-contained battery of large anti-aircraft guns.
+Automatic scan radar detected all aircraft in the vicinity. Those that
+could not return the correct identifying signal had their courses
+tracked and computed, automatic fuse-cutters and loaders readied the
+computer-aimed guns--which were fired by the robot mechanism."
+
+There was little I could argue about with Ned. Except maybe his
+college-professor vocabulary. So I switched the attack.
+
+"But a robot can't take the place of a cop, it's a complex human job."
+
+"Of course it is, but taking a human policeman's place is not the
+function of a police robot. Primarily I combine the functions of
+numerous pieces of police equipment, integrating their operations and
+making them instantly available. In addition I can aid in the
+_mechanical_ processes of law enforcement. If you arrest a man you
+handcuff him. But if you order me to do it, I have made no moral
+decision. I am just a machine for attaching handcuffs at that point ..."
+
+My raised hand cut off the flow of robotic argument. Ned was hipped to
+his ears with facts and figures and I had a good idea who would come off
+second best in any continued discussion. No laws had been broken when
+Ned made the pinch, that was for sure. But there are other laws than
+those that appear on the books.
+
+"China Joe is not going to like this, not at all," the Chief said,
+speaking my own thoughts.
+
+The law of Tooth and Claw. That's one that wasn't in the law books. And
+that was what ran Nineport. The place was just big enough to have a good
+population of gambling joints, bawdy houses and drunk-rollers. They were
+all run by China Joe. As was the police department. We were all in his
+pocket and you might say he was the one who paid our wages. This is not
+the kind of thing, though, that you explain to a robot.
+
+"Yeah, China Joe."
+
+I thought it was an echo at first, then realized that someone had eased
+in the door behind me. Something called Alex. Six feet of bone, muscle
+and trouble. China Joe's right hand man. He imitated a smile at the
+Chief who sank a bit lower in his chair.
+
+"China Joe wants you should tell him why you got smart cops going around
+and putting the arm on people and letting them shoot up good liquor.
+He's mostly angry about the hooch. He says that he had enough guff and
+after this you should--"
+
+"I am putting you under Robot Arrest, pursuant to article 46, paragraph
+19 of the revised statutes ..."
+
+Ned had done it before we realized he had even moved. Right in front of
+our eyes he was arresting Alex and signing our death warrants.
+
+Alex was not slow. As he turned to see who had grabbed him, he had
+already dragged out this cannon. He got one shot in, square against
+Ned's chest, before the robot plucked the gun away and slipped on the
+cuffs. While we all gaped like dead fish, Ned recited the charge in what
+I swear was a satisfied tone.
+
+"The prisoner is Peter Rakjomskj, alias Alex the Axe, wanted in Canal
+City for armed robbery and attempted murder. Also wanted by local police
+of Detroit, New York and Manchester on charges of ..."
+
+"_Get it off me!_" Alex howled. We might have too, and everything might
+have still been straightened out if Benny Bug hadn't heard the shot. He
+popped his head in the front door just long enough to roll his eyes over
+our little scene.
+
+"Alex ... they're puttin' the arm on Alex!"
+
+Then he was gone and when I hit the door he was nowhere in sight. China
+Joe's boys always went around in pairs. And in ten minutes he would know
+all about it.
+
+"Book him," I told Ned. "It wouldn't make any difference if we let him
+go now. The world has already come to an end."
+
+Fats came in then, mumbling to himself. He jerked a thumb over his
+shoulder when he saw me.
+
+"What's up? I see little Benny Bug come out of here like the place was
+on fire and almost get killed driving away?"
+
+Then Fats saw Alex with the bracelets on and turned sober in one second.
+He just took a moment to gape, then his mind was made up. Without a
+trace of a stagger he walked over to the Chief and threw his badge on
+the desk in front of him.
+
+"I am an old man and I drink too much to be a cop. Therefore I am
+resigning from the force. Because if that is whom I think it is over
+there with the cuffs on, I will not live to be a day older as long as I
+am around here."
+
+"Rat." The Chief growled in pain through his clenched teeth. "Deserting
+the sinking ship. Rat."
+
+"Squeak," Fats said and left.
+
+The Chief was beyond caring at this point. He didn't blink an eye when I
+took Fats' badge off the desk. I don't know why I did it, perhaps I
+thought it was only fair. Ned had started all the trouble and I was just
+angry enough to want him on the spot when it was finished. There were
+two rings on his chest plate, and I was not surprised when the badge pin
+fitted them neatly.
+
+"There, now you are a real cop." Sarcasm dripped from the words. I
+should have realized that robots are immune to sarcasm. Ned took my
+statement at face value.
+
+"This is a very great honor, not only for me but for all robots. I will
+do my best to fulfill all the obligations of the office." Jack Armstrong
+in tin underwear. I could hear the little motors in his guts humming
+with joy as he booked Alex.
+
+If everything else hadn't been so bad I would have enjoyed that. Ned had
+more police equipment built into him than Nineport had ever owned. There
+was an ink pad that snapped out of one hip, and he efficiently rolled
+Alex's fingertips across it and stamped them on a card. Then he held the
+prisoner at arm's length while something clicked in his abdomen. Once
+more sideways and two instant photographs dropped out of a slot. The mug
+shots were stuck on the card, arrest details and such inserted. There
+was more like this, but I forced myself away. There were more important
+things to think about.
+
+Like staying alive.
+
+"Any ideas, Chief?"
+
+A groan was my only answer so I let it go at that. Billy, the balance of
+the police force, came in then. I gave him a quick rundown. Either
+through stupidity or guts he elected to stay, and I was proud of the
+boy. Ned locked away the latest prisoner and began sweeping up.
+
+That was the way we were when China Joe walked in.
+
+Even though we were expecting it, it was still a shock. He had a bunch
+of his toughest hoods with him and they crowded through the door like an
+overweight baseball team. China Joe was in front, hands buried in the
+sleeves of his long mandarin gown. No expression at all on his ascetic
+features. He didn't waste time talking to us, just gave the word to his
+own boys.
+
+"Clean this place up. The new police Chief will be here in a while and I
+don't want him to see any bums hanging around."
+
+It made me angry. Even with the graft I like to feel I'm still a cop.
+Not on a cheap punk's payroll. I was also curious about China Joe. Had
+been ever since I tried to get a line on him and never found a thing. I
+still wanted to know.
+
+"Ned, take a good look at that Chinese guy in the rayon bathrobe and let
+me know who he is."
+
+My, but those electronic circuits work fast. Ned shot the answer back
+like a straight man who had been rehearsing his lines for weeks.
+
+"He is a pseudo-oriental, utilizing a natural sallowness of the skin
+heightened with dye. He is not Chinese. There has also been an operation
+on his eyes, scars of which are still visible. This has been undoubtedly
+done in an attempt to conceal his real identity, but Bertillon
+measurements of his ears and other features make identity positive. He
+is on the Very Wanted list of Interpol and his real name is ..."
+
+China Joe was angry, and with a reason.
+
+"That's the _thing_ ... that big-mouthed tin radio set over there. We
+heard about it and we're taking care of it!"
+
+The mob jumped aside then or hit the deck and I saw there was a guy
+kneeling in the door with a rocket launcher. Shaped anti-tank charges,
+no doubt. That was my last thought as the thing let go with a "whoosh."
+
+Maybe you can hit a tank with one of those. But not a robot. At least
+not a police robot. Ned was sliding across the floor on his face when
+the back wall blew up. There was no second shot. Ned closed his hand on
+the tube of the bazooka and it was so much old drainpipe.
+
+Billy decided then that anyone who fired a rocket in a police station
+was breaking the law, so he moved in with his club. I was right behind
+him since I did not want to miss any of the fun. Ned was at the bottom
+somewhere, but I didn't doubt he could take care of himself.
+
+There were a couple of muffled shots and someone screamed. No one fired
+after that because we were too tangled up. A punk named Brooklyn Eddie
+hit me on the side of the head with his gunbutt and I broke his nose
+all over his face with my fist.
+
+       *       *       *       *       *
+
+There is a kind of a fog over everything after that. But I do remember
+it was very busy for a while.
+
+When the fog lifted a bit I realized I was the only one still standing.
+Or leaning rather. It was a good thing the wall was there.
+
+Ned came in through the street door carrying a very bashed-looking
+Brooklyn Eddie. I hoped I had done all that. Eddie's wrists were
+fastened together with cuffs. Ned laid him gently next to the heap of
+thugs--who I suddenly realized all wore the same kind of handcuffs. I
+wondered vaguely if Ned made them as he needed them or had a supply
+tucked away in a hollow leg or something.
+
+There was a chair a few feet away and sitting down helped.
+
+Blood was all over everything and if a couple of the hoods hadn't
+groaned I would have thought they were corpses. One was, I noticed
+suddenly. A bullet had caught him in the chest, most of the blood was
+probably his.
+
+Ned burrowed in the bodies for a moment and dragged Billy out. He was
+unconscious. A big smile on his face and the splintered remains of his
+nightstick still stuck in his fist. It takes very little to make some
+people happy. A bullet had gone through his leg and he never moved while
+Ned ripped the pants leg off and put on a bandage.
+
+"The spurious China Joe and one other man escaped in a car," Ned
+reported.
+
+"Don't let it worry you," I managed to croak. "Your batting average
+still leads the league."
+
+It was then I realized the Chief was still sitting in his chair, where
+he had been when the brouhaha started. Still slumped down with that
+glazed look. Only after I started to talk to him did I realize that
+Alonzo Craig, Chief of Police of Nineport, was now dead.
+
+A single shot. Small caliber gun, maybe a .22. Right through the heart
+and what blood there had been was soaked up by his clothes. I had a good
+idea where the gun would be that fired that shot. A small gun, the kind
+that would fit in a wide Chinese sleeve.
+
+I wasn't tired or groggy any more. Just angry. Maybe he hadn't been the
+brightest or most honest guy in the world. But he deserved a better end
+than that. Knocked off by a two-bit racket boss who thought he was being
+crossed.
+
+Right about then I realized I had a big decision to make. With Billy out
+of the fight and Fats gone I was the Nineport police force. All I had to
+do to be clear of this mess was to walk out the door and keep going. I
+would be safe enough.
+
+Ned buzzed by, picked up two of the thugs, and hauled them off to the
+cells.
+
+Maybe it was the sight of his blue back or maybe I was tired of running.
+Either way my mind was made up before I realized it. I carefully took
+off the Chief's gold badge and put it on in place of my old one.
+
+"The new Chief of Police of Nineport," I said to no one in particular.
+
+"Yes, sir," Ned said as he passed. He put one of the prisoners down long
+enough to salute, then went on with his work. I returned the salute.
+
+The hospital meat wagon hauled away the dead and wounded. I took an evil
+pleasure in ignoring the questioning stares of the attendants. After the
+doc fixed the side of my head, everyone cleared out. Ned mopped up the
+floor. I ate ten aspirin and waited for the hammering to stop so I could
+think what to do next.
+
+       *       *       *       *       *
+
+When I pulled my thoughts together the answer was obvious. Too obvious.
+I made as long a job as I could of reloading my gun.
+
+"Refill your handcuff box, Ned. We are going out."
+
+Like a good cop he asked no questions. I locked the outside door when we
+left and gave him the key.
+
+"Here. There's a good chance you will be the only one left to use this
+before the day is over."
+
+I stretched the drive over to China Joe's place just as much as I could.
+Trying to figure if there was another way of doing it. There wasn't.
+Murder had been done and Joe was the boy I was going to pin it on. So I
+had to get him.
+
+The best I could do was stop around the corner and give Ned a briefing.
+
+"This combination bar and dice-room is the sole property of he whom we
+will still call China Joe until there is time for you to give me a
+rundown on him. Right now I got enough distractions. What we have to do
+is go in there, find Joe and bring him to justice. Simple?"
+
+"Simple," Ned answered in his sharp Joe-college voice. "But wouldn't it
+be simpler to make the arrest now, when he is leaving in that car,
+instead of waiting until he returns?"
+
+The car in mention was doing sixty as it came out of the alley ahead of
+us. I only had a glimpse of Joe in the back seat as it tore by us.
+
+"Stop them!" I shouted, mostly for my own benefit since I was driving. I
+tried to shift gears and start the engine at the same time, and
+succeeded in doing exactly nothing.
+
+So Ned stopped them. It had been phrased as an order. He leaned his head
+out of the window and I saw at once why most of his equipment was
+located in his torso. Probably his brain as well. There sure wasn't much
+room left in his head when that cannon was tucked away in there.
+
+A .75 recoilless. A plate swiveled back right where his nose should have
+been if he had one, and the big muzzle pointed out. It's a neat idea
+when you think about it. Right between the eyes for good aiming, up
+high, always ready.
+
+The BOOM BOOM almost took my head off. Of course Ned was a perfect
+shot--so would I be with a computer for a brain. He had holed one rear
+tire with each slug and the car flap-flapped to a stop a little ways
+down the road. I climbed out slowly while Ned sprinted there in seconds
+flat. They didn't even try to run this time. What little nerve they had
+left must have been shattered by the smoking muzzle of that .75 poking
+out from between Ned's eyes. Robots are neat about things like that so
+he must have left it sticking out deliberate. Probably had a course in
+psychology back in robot school.
+
+Three of them in the car, all waving their hands in the air like the
+last reel of a western. And the rear floor covered with interesting
+little suitcases.
+
+Everyone came along quietly.
+
+China Joe only snarled while Ned told me that his name really was
+Stantin and the Elmira hot seat was kept warm all the time in hopes he
+would be back. I promised Joe-Stantin I would be happy to arrange it
+that same day. Thereby not worrying about any slip-ups with the local
+authorities. The rest of the mob would stand trial in Canal City.
+
+It was a very busy day.
+
+Things have quieted down a good deal since then. Billy is out of the
+hospital and wearing my old sergeant's stripes. Even Fats is back,
+though he is sober once in a while now and has trouble looking me in the
+eye. We don't have much to do because in addition to being a quiet town
+this is now an honest one.
+
+Ned is on foot patrol nights and in charge of the lab and files days.
+Maybe the Policeman's Benevolent wouldn't like that, but Ned doesn't
+seem to mind. He touched up all the bullet scratches and keeps his badge
+polished. I know a robot can't be happy or sad--but Ned _seems_ to be
+happy.
+
+Sometimes I would swear I can hear him humming to himself. But, of
+course, that is only the motors and things going around.
+
+When you start thinking about it, I suppose we set some kind of
+precedent here. What with putting on a robot as a full-fledged police
+officer. No one ever came around from the factory yet, so I have never
+found out if we're the first or not.
+
+And I'll tell you something else. I'm not going to stay in this
+broken-down town forever. I have some letters out now, looking for a new
+job.
+
+So some people are going to be _very_ surprised when they see who their
+new Chief of Police is after _I_ leave.
+
+
+
+
+Transcriber's Note:
+
+    This etext was produced from _Fantastic Universe_ August 1958.
+    Extensive research did not uncover any evidence that the U.S.
+    copyright on this publication was renewed. Minor spelling and
+    typographical errors have been corrected without note.
+
+
+
+
+
+
+
+*** END OF THE PROJECT GUTENBERG EBOOK ARM OF THE LAW ***
+
+
+    
+
+Updated editions will replace the previous one—the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg™ License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project Gutenberg™
+electronic works
+
+1.A. By reading or using any part of this Project Gutenberg™
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg™ electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg™ electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg™ electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg™ electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg™
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg™ electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg™ mission of promoting
+free access to electronic works by freely sharing Project Gutenberg™
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg™ name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg™ License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg™ work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg™ License must appear
+prominently whenever any copy of a Project Gutenberg™ work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at www.gutenberg.org. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  
+1.E.2. If an individual Project Gutenberg™ electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg™
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg™ electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg™ License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg™.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg™ License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg™ work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg™ website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg™ License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg™ works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg™ electronic works
+provided that:
+
+    • You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg™ works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg™ trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    
+    • You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    
+    • You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    
+    • You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg™ work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg™ work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg™
+
+Project Gutenberg™ is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg™’s
+goals and ensuring that the Project Gutenberg™ collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg™ and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+
+The Foundation’s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit www.gutenberg.org/donate.
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+
+Section 5. General Information About Project Gutenberg™ electronic works
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg™ concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg™ eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg™ eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our website which has the main PG search
+facility: www.gutenberg.org.
+
+This website includes information about Project Gutenberg™,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+

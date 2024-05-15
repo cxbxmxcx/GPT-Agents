@@ -1,0 +1,1182 @@
+﻿The Project Gutenberg eBook of Let's Get Together
+    
+This ebook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this ebook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+Title: Let's Get Together
+
+Author: Isaac Asimov
+
+Illustrator: Robert Engle
+
+Release date: June 22, 2022 [eBook #68377]
+
+Language: English
+
+Original publication: United States: Royal Publications, Inc, 1956
+
+Credits: Greg Weeks, Mary Meehan and the Online Distributed Proofreading Team at http://www.pgdp.net.
+
+
+*** START OF THE PROJECT GUTENBERG EBOOK LET'S GET TOGETHER ***
+
+
+
+
+
+                          LET'S GET TOGETHER
+
+                            By ISAAC ASIMOV
+
+                         Illustrated by ENGLE
+
+           [Transcriber's Note: This etext was produced from
+                       Infinity, February 1957.
+         Extensive research did not uncover any evidence that
+         the U.S. copyright on this publication was renewed.]
+
+
+A kind of peace had endured for a century and people had forgotten what
+anything else was like. They would scarcely have known how to react had
+they discovered that a kind of war had finally come.
+
+Certainly, Elias Lynn, Chief of the Bureau of Robotics, wasn't sure
+how he ought to react when _he_ finally found out. The Bureau of
+Robotics was headquartered in Cheyenne, in line with the century-old
+trend toward decentralization, and Lynn stared dubiously at the young
+Security officer from Washington who had brought the news.
+
+Elias Lynn was a large man, almost charmingly homely, with pale blue
+eyes that bulged a bit. Men weren't usually comfortable under the stare
+of those eyes, but the Security officer remained calm.
+
+Lynn decided that his first reaction ought to be incredulity. Hell, it
+_was_ incredulity! He just didn't believe it!
+
+He eased himself back in his chair and said, "How certain is the
+information?"
+
+The Security officer, who had introduced himself as Ralph G.
+Breckenridge and had presented credentials to match, had the softness
+of youth about him; full lips, plump cheeks that flushed easily,
+and guileless eyes. His clothing was out of line with Cheyenne but
+it suited a universally air-conditioned Washington, where Security,
+despite everything, was still centered.
+
+Breckenridge flushed and said, "There's no doubt about it."
+
+"You people know all about Them, I suppose," said Lynn and was unable
+to keep a trace of sarcasm out of his tone. He was not particularly
+aware of his use of a slightly-stressed pronoun in his reference to the
+enemy, the equivalent of capitalization in print. It was a cultural
+habit of this generation and the one preceding. No one said the "East,"
+or the "Reds" or the "Soviets" or the "Russians" any more. That would
+have been too confusing, since some of Them weren't of the East,
+weren't Reds, Soviets, and especially not Russians. It was much simpler
+to say We and They, and much more precise.
+
+Travelers had frequently reported that They did the same in reverse.
+Over there, They were "We" (in the appropriate language) and We were
+"They."
+
+Scarcely anyone gave thought to such things any more. It was all quite
+comfortable and casual. There was no hatred, even. At the beginning,
+it had been called a Cold War. Now it was only a game, almost a
+good-natured game, with unspoken rules and a kind of decency about it.
+
+Lynn said, abruptly, "Why should They want to disturb the situation?"
+
+He rose and stood staring at a wall-map of the world, split into two
+regions with faint edgings of color. An irregular portion on the left
+of the map was edged in a mild green. A smaller, but just as irregular,
+portion on the right of the map was bordered in a washed-out pink. We
+and They.
+
+The map hadn't changed much in a century. The loss of Formosa and
+the gain of East Germany some eighty years before had been the last
+territorial switch of importance.
+
+There had been another change, though, that was significant enough and
+that was in the colors. Two generations before, Their territory had
+been a brooding, bloody red, Ours a pure and undefiled white. Now there
+was a neutrality about the colors. Lynn had seen Their maps and it was
+the same on Their side.
+
+"They wouldn't do it," he said.
+
+"They are doing it," said Breckenridge, "and you had better accustom
+yourself to the fact. Of course, sir, I realize that it isn't pleasant
+to think that they may be that far ahead of us in robotics."
+
+His eyes remained as guileless as ever, but the hidden knife-edges of
+the words plunged deep, and Lynn quivered at the impact.
+
+Of course, that would account for why the Chief of Robotics learned of
+this so late and through a Security officer at that. He had lost caste
+in the eyes of the Government; if Robotics had really failed in the
+struggle, Lynn could expect no political mercy.
+
+Lynn said wearily, "Even if what you say is true, they're not far ahead
+of us. We could build humanoid robots."
+
+"Have we, sir?"
+
+"Yes. As a matter of fact, we have built a few models for experimental
+purposes."
+
+"They were doing so ten years ago. They've made ten years' progress
+since."
+
+Lynn was disturbed. He wondered if his incredulity concerning the whole
+business were really the result of wounded pride and fear for his job
+and reputation. He was embarrassed by the possibility that this might
+be so, and yet he was forced into defense.
+
+He said, "Look, young man, the stalemate between Them and Us was never
+perfect in every detail, you know. They have always been ahead in one
+facet or another and We in some other facet or another. If They're
+ahead of us right now in robotics, it's because They've placed a
+greater proportion of Their effort into robotics than We have. And that
+means that some other branch of endeavor has received a greater share
+of Our efforts than it has of Theirs. It would mean We're ahead in
+force-field research or in hyper-atomics, perhaps."
+
+Lynn felt distressed at his own statement that the stalemate wasn't
+perfect. It was true enough, but that was the one great danger
+threatening the world. The world depended on the stalemate being as
+perfect as possible. If the small unevennesses that always existed
+over-balanced too far in one direction or the other--
+
+Almost at the beginning of what had been the Cold War, both sides
+had developed thermonuclear weapons, and war became unthinkable.
+Competition switched from the military to the economic and
+psychological and had stayed there ever since.
+
+But always there was the driving effort on each side to break the
+stalemate, to develop a parry for every possible thrust, to develop
+a thrust that could not be parried in time--something that would make
+war possible again. And that was not because either side wanted war so
+desperately, but because both were afraid that the other side would
+make the crucial discovery first.
+
+For a hundred years each side had kept the struggle even. And in the
+process, peace had been maintained for a hundred years while, as
+byproducts of the continuously intensive research, force-fields had
+been produced and solar energy and insect control and robots. Each side
+was making a beginning in the understanding of mentalics, which was the
+name given to the biochemistry and biophysics of thought. Each side had
+its outposts on the Moon and on Mars. Mankind was advancing in giant
+strides under forced draft.
+
+It was even necessary for both sides to be as decent and humane as
+possible among themselves, lest through cruelty and tyranny, friends be
+made for the other side.
+
+It couldn't be that the stalemate would now be broken and that there
+would be war.
+
+Lynn said, "I want to consult one of my men. I want his opinion."
+
+"Is he trustworthy?"
+
+Lynn looked disgusted. "Good Lord, what man in Robotics has not been
+investigated and cleared to death by your people? Yes, I vouch for
+him. If you can't trust a man like Humphrey Carl Laszlo, then we're in
+no position to face the kind of attack you say They are launching, no
+matter what else we do."
+
+"I've heard of Laszlo," said Breckenridge.
+
+"Good. Does he pass?"
+
+"Yes."
+
+"Then, I'll have him in and we'll find out what he thinks about the
+possibility that robots could invade the U. S. A."
+
+"Not exactly," said Breckenridge, softly. "You still don't accept the
+full truth. Find out what he thinks about the fact that robots have
+_already_ invaded the U. S. A."
+
+       *       *       *       *       *
+
+Laszlo was the grandson of a Hungarian who had broken through what
+had then been called the Iron Curtain, and he had a comfortable
+above-suspicion feeling about himself because of it. He was thick-set
+and balding with a pugnacious look graven forever on his snub face, but
+his accent was clear Harvard and he was almost excessively soft-spoken.
+
+To Lynn, who was conscious that after years of administration he was no
+longer expert in the various phases of modern robotics, Laszlo was a
+comforting receptacle for complete knowledge. Lynn felt better because
+of the man's mere presence.
+
+Lynn said, "What do you think?"
+
+A scowl twisted Laszlo's face ferociously. "That They're that far ahead
+of us. Completely incredible. It would mean They've produced humanoids
+that could not be told from humans at close quarters. It would mean a
+considerable advance in robo-mentalics."
+
+"You're personally involved," said Breckenridge, coldly. "Leaving
+professional pride out of account, exactly why is it impossible that
+They be ahead of Us?"
+
+Laszlo shrugged. "I assure you that I'm well acquainted with Their
+literature on robotics. I know approximately where They are."
+
+"You know approximately where They want you to _think_ They are, is
+what you really mean," corrected Breckenridge. "Have you ever visited
+the other side?"
+
+"I haven't," said Laszlo, shortly.
+
+"Nor you, Dr. Lynn?"
+
+Lynn said, "No, I haven't, either."
+
+Breckenridge said, "Has any robotics man visited the other side in
+twenty-five years?" He asked the question with a kind of confidence
+that indicated he knew the answer.
+
+For a matter of seconds, the atmosphere was heavy with thought.
+Discomfort crossed Laszlo's broad face. He said, "As a matter of fact,
+They haven't held any conferences on robotics in a long time."
+
+"In twenty-five years," said Breckenridge. "Isn't that significant?"
+
+"Maybe," said Laszlo, reluctantly. "Something else bothers me, though.
+None of Them have ever come to Our conferences on robotics. None that I
+can remember."
+
+"Were They invited?" asked Breckenridge.
+
+Lynn, staring and worried, interposed quickly, "Of course."
+
+Breckenridge said, "Do They refuse attendance to any other types of
+scientific conferences We hold?"
+
+"I don't know," said Laszlo. He was pacing the floor now. "I haven't
+heard of any cases. Have you, Chief?"
+
+"No," said Lynn.
+
+Breckenridge said, "Wouldn't you say it was as though They didn't want
+to be put in the position of having to return any such invitation? Or
+as though They were afraid one of Their men might talk too much?"
+
+That was exactly how it seemed, and Lynn felt a helpless conviction
+that Security's story was true after all steal over him.
+
+Why else had there been no contact between sides on robotics? There
+had been a cross-fertilizing trickle of researchers moving in both
+directions on a strictly one-for-one basis for years, dating back
+to the days of Eisenhower and Khrushchev. There were a great many
+good motives for that: an honest appreciation of the supra-national
+character of science; impulses of friendliness that are hard to wipe
+out completely in the individual human being; the desire to be exposed
+to a fresh and interesting outlook and to have your own slightly-stale
+notions greeted by others as fresh and interesting.
+
+The governments themselves were anxious that this continue. There was
+always the obvious thought that by learning all you could and telling
+as little as you could, your own side would gain by the exchange.
+
+But not in the case of robotics. Not there.
+
+Such a little thing to carry conviction. And a thing, moreover, they
+had known all along. Lynn thought, darkly: We've taken the complacent
+way out.
+
+Because the other side had done nothing publicly on robotics, it had
+been tempting to sit back smugly and be comfortable in the assurance of
+superiority. Why hadn't it seemed possible, even likely, that They were
+hiding superior cards, a trump hand, for the proper time?
+
+Laszlo said, shakenly, "What do we do?" It was obvious that the same
+line of thought had carried the same conviction to him.
+
+"Do?" parroted Lynn. It was hard to think right now of anything but of
+the complete horror that came with conviction. There were ten humanoid
+robots somewhere in the United States, each one carrying a fragment of
+a TC bomb.
+
+TC! The race for sheer horror in bomb-ery had ended there. TC! Total
+Conversion! The sun was no longer a synonym one could use. Total
+conversion made the sun a penny candle.
+
+Ten humanoids, each completely harmless in separation, could, by the
+simple act of coming together, exceed critical mass and--
+
+Lynn rose to his feet heavily, the dark pouches under his eyes, which
+ordinarily lent his ugly face a look of savage foreboding, more
+prominent than ever. "It's going to be up to us to figure out ways
+and means of telling a humanoid from a human and then finding the
+humanoids."
+
+"How quickly?" muttered Laszlo.
+
+"Not later than five minutes before they get together," barked Lynn,
+"and I don't know when that will be."
+
+Breckenridge nodded. "I'm glad you're with us now, sir. I'm to bring
+you back to Washington for conference, you know."
+
+Lynn raised his eyebrows. "All right."
+
+He wondered if, had he delayed longer in being convinced, he might
+not have been replaced forthwith--if some other Chief of the Bureau
+of Robotics might not be conferring in Washington. He suddenly wished
+earnestly that exactly that had come to pass.
+
+       *       *       *       *       *
+
+The First Presidential Assistant was there, the Secretary of Science,
+the Secretary of Security, Lynn himself, and Breckenridge. Five of them
+sitting about a table in the dungeons of an underground fortress near
+Washington.
+
+Presidential Assistant Jeffreys was an impressive man, handsome in a
+white-haired and just-a-trifle-jowly fashion, solid, thoughtful and as
+unobtrusive, politically, as a Presidential Assistant ought to be.
+
+He spoke incisively. "There are three questions that face us as I see
+it. First, when are the humanoids going to get together? Second, where
+are they going to get together? Third, how do we stop them before they
+get together?"
+
+Secretary of Science Amberley nodded convulsively at that. He had been
+Dean of Northwestern Engineering before his appointment. He was thin,
+sharp-featured and noticeably edgy. His forefinger traced slow circles
+on the table.
+
+"As far as _when_ they'll get together," he said. "I suppose it's
+definite that it won't be for some time."
+
+"Why do you say that?" asked Lynn, sharply.
+
+"They've been in the U. S. at least a month already. So Security says."
+
+Lynn turned automatically to look at Breckenridge, and Secretary of
+Security Macalaster intercepted the glance. Macalaster said, "The
+information is reliable. Don't let Breckenridge's apparent youth fool
+you, Dr. Lynn. That's part of his value to us. Actually, he's 34 and
+has been with the department for ten years. He has been in Moscow for
+nearly a year and without him, none of this terrible danger would be
+known to us. As it is, we have most of the details."
+
+"Not the crucial ones," said Lynn.
+
+Macalaster of Security smiled frostily. His heavy chin and close-set
+eyes were well-known to the public but almost nothing else about him
+was. He said, "We are all finitely human, Dr. Lynn. Agent Breckenridge
+has done a great deal."
+
+Presidential Assistant Jeffreys cut in. "Let us say we have a certain
+amount of time. If action at the instant were necessary, it would
+have happened before this. It seems likely that they are waiting for
+a specific time. If we knew the place, perhaps the time would become
+self-evident.
+
+"If they are going to TC a target, they will want to cripple us as much
+as possible, so it would seem that a major city would have to be it.
+In any case, a major metropolis is the only target worth a TC bomb. I
+think there are four possibilities: Washington, as the administrative
+center; New York, as the financial center; and Detroit and Pittsburgh
+as the two chief industrial centers."
+
+Macalaster of Security said, "I vote for New York. Administration
+and industry have both been decentralized to the point where the
+destruction of any one particular city won't prevent instant
+retaliation."
+
+"Then why New York?" asked Amberly of Science, perhaps more sharply
+than he intended. "Finance has been decentralized as well."
+
+"A question of morale. It may be they intend to destroy our will to
+resist, to induce surrender by the sheer horror of the first blow.
+The greatest destruction of human life would be in the New York
+Metropolitan area--"
+
+"Pretty cold-blooded," muttered Lynn.
+
+"I know," said Macalaster of Security, "but they're capable of it, if
+they thought it would mean final victory at a stroke. Wouldn't we--"
+
+Presidential Assistant Jeffreys brushed back his white hair. "Let's
+assume the worst. Let's assume that New York will be destroyed some
+time during the winter, preferably immediately after a serious blizzard
+when communications are at their worst and the disruption of utilities
+and food supplies in fringe areas will be most serious in their effect.
+Now, how do we stop them?"
+
+Amberley of Science could only say, "Finding ten men in two hundred and
+twenty million is an awfully small needle in an awfully large haystack."
+
+Jeffreys shook his head. "You have it wrong. Ten humanoids among two
+hundred twenty million humans."
+
+"No difference," said Amberley of Science. "We don't know that a
+humanoid can be differentiated from a human at sight. Probably not." He
+looked at Lynn. They all did.
+
+Lynn said heavily, "We in Cheyenne couldn't make one that would pass as
+human in the daylight."
+
+"But They can," said Macalaster of Security, "and not only physically.
+We're sure of that. They've advanced mentalic procedures to the point
+where they can reel off the micro-electronic pattern of the brain and
+focus it on the positronic pathways of the robot."
+
+Lynn stared. "Are you implying that they can create the replica of a
+human being complete with personality and memory?"
+
+"I do."
+
+"Of specific human beings?"
+
+"That's right."
+
+"Is this also based on Agent Breckenridge's findings?"
+
+"Yes. The evidence can't be disputed."
+
+Lynn bent his head in thought for a moment. Then he said, "Then ten men
+in the United States are not men but humanoids. But the originals would
+have had to be available to them. They couldn't be Orientals, who would
+be too easy to spot, so they would have to be East Europeans. How would
+they be introduced into this country, then? With the radar network over
+the entire world border as tight as a drum, how could They introduce
+any individual, human or humanoid, without our knowing it?"
+
+Macalaster of Security said, "It can be done. There are certain
+legitimate seepages across the border. Businessmen, pilots, even
+tourists. They're watched, of course, on both sides. Still ten of
+them might have been kidnapped and used as models for humanoids. The
+humanoids would then be sent back in their place. Since we wouldn't
+expect such a substitution, it would pass us by. If they were Americans
+to begin with, there would be no difficulty in their getting into this
+country. It's as simple as that."
+
+"And even their friends and family could not tell the difference?"
+
+"We must assume so. Believe me, we've been waiting for any report
+that might imply sudden attacks of amnesia or troublesome changes in
+personality. We've checked on thousands."
+
+Amberley of Science stared at his finger-tips. "I think ordinary
+measures won't work. The attack must come from the Bureau of Robotics
+and I depend on the chief of that bureau."
+
+Again eyes turned sharply, expectantly, on Lynn.
+
+Lynn felt bitterness rise. It seemed to him that this was what the
+conference came to and was intended for. Nothing that had been said had
+not been said before. He was sure of that. There was no solution to
+the problem, no pregnant suggestion. It was a device for the record, a
+device on the part of men who gravely feared defeat and who wished the
+responsibility for it placed clearly and unequivocally on someone else.
+
+And yet there was justice in it. It was in robotics that We had fallen
+short. And Lynn was not Lynn merely. He was Lynn of Robotics and the
+responsibility had to be his.
+
+He said, "I will do what I can."
+
+       *       *       *       *       *
+
+He spent a wakeful night and there was a haggardness about both
+body and soul when he sought and attained another interview with
+Presidential Assistant Jeffreys the next morning. Breckenridge was
+there, and though Lynn would have preferred a private conference,
+he could see the justice in the situation. It was obvious that
+Breckenridge had attained enormous influence with the government as a
+result of his successful Intelligence work. Well, why not?
+
+Lynn said, "Sir, I am considering the possibility that we are hopping
+uselessly to enemy piping."
+
+"In what way?"
+
+"I'm sure that however impatient the public may grow at times, and
+however legislators sometimes find it expedient to talk, the government
+at least recognizes the world stalemate to be beneficial. They must
+recognize it also. Ten humanoids with one TC bomb is a trivial way of
+breaking the stalemate."
+
+"The destruction of fifteen million human beings is scarcely trivial."
+
+"It is from the world power standpoint. It would not so demoralize us
+as to make us surrender or so cripple us as to convince us we could not
+win. There would just be the same old planetary death-war that both
+sides have avoided so long and so successfully. And all They would have
+accomplished is to force us to fight minus one city. It's not enough."
+
+"What do you suggest?" said Jeffreys, coldly. "That They do not have
+ten humanoids in our country? That there is not a TC bomb waiting to
+get together?"
+
+"I'll agree that those things are here, but perhaps for some reason
+greater than just mid-winter bomb-madness."
+
+"Such as?"
+
+"It may be that the physical destruction resulting from the humanoids
+getting together is not the worst thing that can happen to us. What
+about the moral and intellectual destruction that comes of their being
+here at all? With all due respect to Agent Breckenridge, what if
+They _intended_ for us to find out about the humanoids; what if the
+humanoids are never supposed to get together, but merely to remain
+separate in order to give us something to worry about."
+
+"Why?"
+
+"Tell me this. What measures have already been taken against the
+humanoids? I suppose that Security is going through the files of all
+citizens who have ever been across the border or close enough to it
+to make kidnapping possible. I know, since Macalaster mentioned it
+yesterday, that they are following up suspicious psychiatric cases.
+What else?"
+
+Jeffreys said, "Small X-ray devices are being installed in key places
+in the large cities. In the mass arenas, for instance--"
+
+"Where ten humanoids might slip in among a hundred thousand spectators
+of a football game or an air-polo match?"
+
+"Exactly."
+
+"And concert halls and churches?"
+
+"We must start somewhere. We can't do it all at once."
+
+"Particularly when panic must be avoided?" said Lynn. "Isn't that so?
+It wouldn't do to have the public realize that at any unpredictable
+moment, some unpredictable city and its human contents would suddenly
+cease to exist."
+
+"I suppose that's obvious. What are you driving at?"
+
+Lynn said strenuously, "That a growing fraction of our national effort
+will be diverted entirely into the nasty problem of what Amberley
+called finding a very small needle in a very large haystack. We'll
+be chasing our tails madly, while They increase their research
+lead to the point where we find we can no longer catch up; when we
+must surrender without the chance even of snapping our fingers in
+retaliation.
+
+"Consider further that this news will leak out as more and more people
+become involved in our counter-measures and more and more people begin
+to guess what we're doing. Then what? The panic might do us more harm
+than any one TC bomb."
+
+The Presidential Assistant said, irritably, "In Heaven's name, man,
+what do you suggest we do, then?"
+
+"Nothing," said Lynn. "Call their bluff. Live as we have lived and
+gamble that They won't dare break the stalemate for the sake of a
+one-bomb headstart."
+
+"Impossible!" said Jeffreys. "Completely impossible. The welfare of all
+of Us is very largely in my hands, and doing nothing is the one thing
+I cannot do. I agree with you, perhaps, that X-ray machines at sports
+arenas are a kind of skin-deep measure that won't be effective, but it
+has to be done so that people, in the aftermath, do not come to the
+bitter conclusion that we tossed our country away for the sake of a
+subtle line of reasoning that encouraged do-nothingism. In fact, our
+counter-gambit will be active indeed."
+
+"In what way?"
+
+Presidential Assistant Jeffreys looked at Breckenridge. The young
+Security officer, hitherto calmly silent, said, "It's no use talking
+about a possible future break in the stalemate when the stalemate is
+broken now. It doesn't matter whether these humanoids explode or do
+not. Maybe they _are_ only a bait to divert us, as you say. But the
+fact remains that we are a quarter of a century behind in robotics, and
+that may be fatal. What other advances in robotics will there be to
+surprise us if war does start? The only answer is to divert our entire
+force immediately, _now_, into a crash program of robotics research,
+and the first problem is to find the humanoids. Call it an exercise
+in robotics, if you will, or call it the prevention of the death of
+fifteen million men, women and children."
+
+Lynn shook his head, helplessly, "You _can't_. You'd be playing into
+their hands. They want us lured into the one blind alley while they're
+free to advance in all other directions."
+
+Jeffreys said, impatiently, "That's your guess. Breckenridge has made
+his suggestion through channels and the government has approved, and we
+will begin with an all-Science conference."
+
+"All-Science?"
+
+Breckenridge said, "We have listed every important scientist of every
+branch of natural science. They'll all be at Cheyenne. There will
+be only one point on the agenda: How to advance robotics. The major
+specific sub-heading under that will be: How to develop a receiving
+device for the electromagnetic fields of the cerebral cortex that will
+be sufficiently delicate to distinguish between a protoplasmic human
+brain and a positronic humanoid brain."
+
+Jeffreys said, "We had hoped you would be willing to be in charge of
+the conference."
+
+"I was not consulted in this."
+
+"Obviously time was short, sir. Do you agree to be in charge?"
+
+Lynn smiled briefly. It was a matter of responsibility again. The
+responsibility must be clearly that of Lynn of Robotics. He had the
+feeling it would be Breckenridge who would really be in charge. But
+what could he do?
+
+He said, "I agree."
+
+       *       *       *       *       *
+
+Breckenridge and Lynn returned together to Cheyenne, where that evening
+Laszlo listened with a sullen mistrust to Lynn's description of coming
+events.
+
+Laszlo said, "While you were gone, Chief, I've started putting
+five experimental models of humanoid structure through the testing
+procedures. Our men are on a twelve-hour day, with three shifts
+overlapping. If we've got to arrange a conference, we're going to be
+crowded and red-taped out of everything. Work will come to a halt."
+
+Breckenridge said, "That will be only temporary. You will gain more
+than you lose."
+
+Laszlo scowled. "A bunch of astrophysicists and geochemists around
+won't help a damn toward robotics."
+
+"Views from specialists of other fields may be helpful."
+
+"Are you sure? How do we know that there _is_ any way of detecting
+brain waves or that, even if we can, there is a way of differentiating
+human and humanoid by wave pattern. Who set up the project, anyway?"
+
+"I did," said Breckenridge.
+
+"_You_ did? Are you a robotics man?"
+
+The young Security agent said, calmly, "I have studied robotics."
+
+"That's not the same thing."
+
+"I've had access to text-material dealing with Russian robotics--in
+Russian. Top-secret material well in advance of anything you have here."
+
+Lynn said, ruefully, "He has us there, Laszlo."
+
+"It was on the basis of that material," Breckenridge went on, "that
+I suggested this particular line of investigation. It is reasonably
+certain that in copying off the electromagnetic pattern of a
+specific human mind into a specific positronic brain, a perfectly
+exact duplicate cannot be made. For one thing, the most complicated
+positronic brain small enough to fit into a human-sized skull is
+hundreds of times less complex than the human brain. It can't pick
+up all the overtones, therefore, and there must be some way to take
+advantage of that fact."
+
+Laszlo looked impressed despite himself and Lynn smiled grimly. It was
+easy to resent Breckenridge and the coming intrusion of several hundred
+scientists of non-robotics specialties, but the problem itself was an
+intriguing one. There was that consolation, at least.
+
+       *       *       *       *       *
+
+It came to him quietly.
+
+Lynn found he had nothing to do but sit in his office alone, with an
+executive position that had grown merely titular. Perhaps that helped.
+It gave him time to think, to picture the creative scientists of half
+the world converging on Cheyenne.
+
+It was Breckenridge who, with cool efficiency, was handling the details
+of preparation. There had been a kind of confidence in the way he said,
+"Let's get together and we'll lick Them."
+
+Let's get together.
+
+It came to Lynn so quietly that anyone watching Lynn at that moment
+might have seen his eyes blink slowly twice--but surely nothing more.
+
+He did what he had to do with a whirling detachment that kept him calm
+when he felt that, by all rights, he ought to be going mad.
+
+He sought out Breckenridge in the other's improvised quarters.
+
+Breckenridge was alone and frowning. "Is anything wrong, sir?"
+
+Lynn said, wearily, "Everything's right, I think. I've invoked martial
+law."
+
+"What!"
+
+"As chief of a division I can do so if I am of the opinion the
+situation warrants it. Over my division, I can then be dictator. Chalk
+up one for the beauties of decentralization."
+
+"You will rescind that order immediately." Breckenridge took a step
+forward. "When Washington hears this, you will be ruined."
+
+"I'm ruined anyway. Do you think I don't realize that I've been set up
+for the role of the greatest villain in American history: the man who
+let Them break the stalemate. I have nothing to lose--and perhaps a
+great deal to gain."
+
+He laughed a little wildly, "What a target the Division of Robotics
+will be, eh, Breckenridge? Only a few thousand men to be killed by
+a TC bomb capable of wiping out three hundred square miles in one
+micro-second. But five hundred of those men would be our greatest
+scientists. We would be in the peculiar position of having to fight a
+war with our brains shot out, or surrendering. I think we'd surrender."
+
+"But this is impossible. Lynn, do you hear me? Do you understand? How
+could the humanoids pass our security provisions? How could they get
+together?"
+
+"But they _are_ getting together! We're helping them to do so.
+We're ordering them to do so. Our scientists visit the other side,
+Breckenridge. They visit Them regularly. You made a point of how
+strange it was that no one in robotics did. Well, ten of those
+scientists are still there and in their place, ten humanoids are
+converging on Cheyenne."
+
+"That's a ridiculous guess."
+
+"I think it's a good one, Breckenridge. But it wouldn't work unless we
+knew humanoids were in America so that we would call the conference in
+the first place. Quite a coincidence that you brought the news of the
+humanoids _and_ suggested the conference _and_ suggested the agenda
+_and_ are running the show and know exactly which scientists were
+invited. Did you make sure the right ten were included?"
+
+"Dr. Lynn!" cried Breckenridge in outrage. He poised to rush forward.
+
+Lynn said, "Don't move. I've got a blaster here. We'll just wait for
+the scientists to get here one by one. One by one we'll X-ray them. One
+by one, we'll monitor them for radioactivity. No two will get together
+without being checked, and if all five hundred are clear, I'll give
+you my blaster and surrender to you. Only I think we'll find the ten
+humanoids. Sit down, Breckenridge."
+
+They both sat.
+
+Lynn said, "We wait. When I'm tired, Laszlo will spell me. We wait."
+
+       *       *       *       *       *
+
+Professor Manuelo Jiminez of the Institute of Higher Studies of Buenos
+Aires exploded while the stratospheric jet on which he traveled was
+three miles above the Amazon Valley. It was a simple chemical explosion
+but it was enough to destroy the plane.
+
+Dr. Herman Liebowitz of M. I. T. exploded in a monorail, killing twenty
+people and injuring a hundred others.
+
+In similar manner, Dr. Auguste Marin of L'Institut Nucléonique of
+Montreal and seven others died at various stages of their journey to
+Cheyenne.
+
+       *       *       *       *       *
+
+Laszlo hurtled in, pale-faced and stammering, with the first news
+of it. It had only been two hours that Lynn had sat there, facing
+Breckenridge, blaster in hand.
+
+Laszlo said, "I thought you were nuts, Chief, but you were right.
+They _were_ humanoids. They _had_ to be." He turned to stare with
+hate-filled eyes at Breckenridge. "Only they were warned. _He_ warned
+them, and now there won't be one left intact. Not one to study."
+
+"God!" cried Lynn and in a frenzy of haste thrust his blaster out
+toward Breckenridge and fired. The Security man's neck vanished; the
+torso fell; the head dropped, thudded against the floor and rolled
+crookedly.
+
+Lynn moaned, "I didn't understand, I thought he was a traitor. Nothing
+more."
+
+And Laszlo stood immobile, mouth open, for the moment incapable of
+speech.
+
+Lynn said, wildly. "Sure, he warned them. But how could he do so while
+sitting in that chair unless he were equipped with built-in radio
+transmission? Don't you see it? Breckenridge had been in Moscow. The
+real Breckenridge is still there. Oh my God, there were _eleven_ of
+them."
+
+Laszlo managed a hoarse squeak. "Why didn't _he_ explode?"
+
+"He was hanging on, I suppose, to make sure the others had received his
+message and were safely destroyed. Lord, Lord, when you brought the
+news and I realized the truth, I couldn't shoot fast enough. God knows
+by how few seconds I may have beaten him to it."
+
+Laszlo said, shakily, "At least, we'll have one to study." He bent
+and put his fingers on the sticky fluid trickling out of the mangled
+remains at the neck end of the headless body.
+
+Not blood, but high-grade machine oil.
+
+
+
+*** END OF THE PROJECT GUTENBERG EBOOK LET'S GET TOGETHER ***
+
+
+    
+
+Updated editions will replace the previous one—the old editions will
+be renamed.
+
+Creating the works from print editions not protected by U.S. copyright
+law means that no one owns a United States copyright in these works,
+so the Foundation (and you!) can copy and distribute it in the United
+States without permission and without paying copyright
+royalties. Special rules, set forth in the General Terms of Use part
+of this license, apply to copying and distributing Project
+Gutenberg™ electronic works to protect the PROJECT GUTENBERG™
+concept and trademark. Project Gutenberg is a registered trademark,
+and may not be used if you charge for an eBook, except by following
+the terms of the trademark license, including paying royalties for use
+of the Project Gutenberg trademark. If you do not charge anything for
+copies of this eBook, complying with the trademark license is very
+easy. You may use this eBook for nearly any purpose such as creation
+of derivative works, reports, performances and research. Project
+Gutenberg eBooks may be modified and printed and given away—you may
+do practically ANYTHING in the United States with eBooks not protected
+by U.S. copyright law. Redistribution is subject to the trademark
+license, especially commercial redistribution.
+
+
+START: FULL LICENSE
+
+THE FULL PROJECT GUTENBERG LICENSE
+
+PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
+
+To protect the Project Gutenberg™ mission of promoting the free
+distribution of electronic works, by using or distributing this work
+(or any other work associated in any way with the phrase “Project
+Gutenberg”), you agree to comply with all the terms of the Full
+Project Gutenberg™ License available with this file or online at
+www.gutenberg.org/license.
+
+Section 1. General Terms of Use and Redistributing Project Gutenberg™
+electronic works
+
+1.A. By reading or using any part of this Project Gutenberg™
+electronic work, you indicate that you have read, understand, agree to
+and accept all the terms of this license and intellectual property
+(trademark/copyright) agreement. If you do not agree to abide by all
+the terms of this agreement, you must cease using and return or
+destroy all copies of Project Gutenberg™ electronic works in your
+possession. If you paid a fee for obtaining a copy of or access to a
+Project Gutenberg™ electronic work and you do not agree to be bound
+by the terms of this agreement, you may obtain a refund from the person
+or entity to whom you paid the fee as set forth in paragraph 1.E.8.
+
+1.B. “Project Gutenberg” is a registered trademark. It may only be
+used on or associated in any way with an electronic work by people who
+agree to be bound by the terms of this agreement. There are a few
+things that you can do with most Project Gutenberg™ electronic works
+even without complying with the full terms of this agreement. See
+paragraph 1.C below. There are a lot of things you can do with Project
+Gutenberg™ electronic works if you follow the terms of this
+agreement and help preserve free future access to Project Gutenberg™
+electronic works. See paragraph 1.E below.
+
+1.C. The Project Gutenberg Literary Archive Foundation (“the
+Foundation” or PGLAF), owns a compilation copyright in the collection
+of Project Gutenberg™ electronic works. Nearly all the individual
+works in the collection are in the public domain in the United
+States. If an individual work is unprotected by copyright law in the
+United States and you are located in the United States, we do not
+claim a right to prevent you from copying, distributing, performing,
+displaying or creating derivative works based on the work as long as
+all references to Project Gutenberg are removed. Of course, we hope
+that you will support the Project Gutenberg™ mission of promoting
+free access to electronic works by freely sharing Project Gutenberg™
+works in compliance with the terms of this agreement for keeping the
+Project Gutenberg™ name associated with the work. You can easily
+comply with the terms of this agreement by keeping this work in the
+same format with its attached full Project Gutenberg™ License when
+you share it without charge with others.
+
+1.D. The copyright laws of the place where you are located also govern
+what you can do with this work. Copyright laws in most countries are
+in a constant state of change. If you are outside the United States,
+check the laws of your country in addition to the terms of this
+agreement before downloading, copying, displaying, performing,
+distributing or creating derivative works based on this work or any
+other Project Gutenberg™ work. The Foundation makes no
+representations concerning the copyright status of any work in any
+country other than the United States.
+
+1.E. Unless you have removed all references to Project Gutenberg:
+
+1.E.1. The following sentence, with active links to, or other
+immediate access to, the full Project Gutenberg™ License must appear
+prominently whenever any copy of a Project Gutenberg™ work (any work
+on which the phrase “Project Gutenberg” appears, or with which the
+phrase “Project Gutenberg” is associated) is accessed, displayed,
+performed, viewed, copied or distributed:
+
+    This eBook is for the use of anyone anywhere in the United States and most
+    other parts of the world at no cost and with almost no restrictions
+    whatsoever. You may copy it, give it away or re-use it under the terms
+    of the Project Gutenberg License included with this eBook or online
+    at www.gutenberg.org. If you
+    are not located in the United States, you will have to check the laws
+    of the country where you are located before using this eBook.
+  
+1.E.2. If an individual Project Gutenberg™ electronic work is
+derived from texts not protected by U.S. copyright law (does not
+contain a notice indicating that it is posted with permission of the
+copyright holder), the work can be copied and distributed to anyone in
+the United States without paying any fees or charges. If you are
+redistributing or providing access to a work with the phrase “Project
+Gutenberg” associated with or appearing on the work, you must comply
+either with the requirements of paragraphs 1.E.1 through 1.E.7 or
+obtain permission for the use of the work and the Project Gutenberg™
+trademark as set forth in paragraphs 1.E.8 or 1.E.9.
+
+1.E.3. If an individual Project Gutenberg™ electronic work is posted
+with the permission of the copyright holder, your use and distribution
+must comply with both paragraphs 1.E.1 through 1.E.7 and any
+additional terms imposed by the copyright holder. Additional terms
+will be linked to the Project Gutenberg™ License for all works
+posted with the permission of the copyright holder found at the
+beginning of this work.
+
+1.E.4. Do not unlink or detach or remove the full Project Gutenberg™
+License terms from this work, or any files containing a part of this
+work or any other work associated with Project Gutenberg™.
+
+1.E.5. Do not copy, display, perform, distribute or redistribute this
+electronic work, or any part of this electronic work, without
+prominently displaying the sentence set forth in paragraph 1.E.1 with
+active links or immediate access to the full terms of the Project
+Gutenberg™ License.
+
+1.E.6. You may convert to and distribute this work in any binary,
+compressed, marked up, nonproprietary or proprietary form, including
+any word processing or hypertext form. However, if you provide access
+to or distribute copies of a Project Gutenberg™ work in a format
+other than “Plain Vanilla ASCII” or other format used in the official
+version posted on the official Project Gutenberg™ website
+(www.gutenberg.org), you must, at no additional cost, fee or expense
+to the user, provide a copy, a means of exporting a copy, or a means
+of obtaining a copy upon request, of the work in its original “Plain
+Vanilla ASCII” or other form. Any alternate format must include the
+full Project Gutenberg™ License as specified in paragraph 1.E.1.
+
+1.E.7. Do not charge a fee for access to, viewing, displaying,
+performing, copying or distributing any Project Gutenberg™ works
+unless you comply with paragraph 1.E.8 or 1.E.9.
+
+1.E.8. You may charge a reasonable fee for copies of or providing
+access to or distributing Project Gutenberg™ electronic works
+provided that:
+
+    • You pay a royalty fee of 20% of the gross profits you derive from
+        the use of Project Gutenberg™ works calculated using the method
+        you already use to calculate your applicable taxes. The fee is owed
+        to the owner of the Project Gutenberg™ trademark, but he has
+        agreed to donate royalties under this paragraph to the Project
+        Gutenberg Literary Archive Foundation. Royalty payments must be paid
+        within 60 days following each date on which you prepare (or are
+        legally required to prepare) your periodic tax returns. Royalty
+        payments should be clearly marked as such and sent to the Project
+        Gutenberg Literary Archive Foundation at the address specified in
+        Section 4, “Information about donations to the Project Gutenberg
+        Literary Archive Foundation.”
+    
+    • You provide a full refund of any money paid by a user who notifies
+        you in writing (or by e-mail) within 30 days of receipt that s/he
+        does not agree to the terms of the full Project Gutenberg™
+        License. You must require such a user to return or destroy all
+        copies of the works possessed in a physical medium and discontinue
+        all use of and all access to other copies of Project Gutenberg™
+        works.
+    
+    • You provide, in accordance with paragraph 1.F.3, a full refund of
+        any money paid for a work or a replacement copy, if a defect in the
+        electronic work is discovered and reported to you within 90 days of
+        receipt of the work.
+    
+    • You comply with all other terms of this agreement for free
+        distribution of Project Gutenberg™ works.
+    
+
+1.E.9. If you wish to charge a fee or distribute a Project
+Gutenberg™ electronic work or group of works on different terms than
+are set forth in this agreement, you must obtain permission in writing
+from the Project Gutenberg Literary Archive Foundation, the manager of
+the Project Gutenberg™ trademark. Contact the Foundation as set
+forth in Section 3 below.
+
+1.F.
+
+1.F.1. Project Gutenberg volunteers and employees expend considerable
+effort to identify, do copyright research on, transcribe and proofread
+works not protected by U.S. copyright law in creating the Project
+Gutenberg™ collection. Despite these efforts, Project Gutenberg™
+electronic works, and the medium on which they may be stored, may
+contain “Defects,” such as, but not limited to, incomplete, inaccurate
+or corrupt data, transcription errors, a copyright or other
+intellectual property infringement, a defective or damaged disk or
+other medium, a computer virus, or computer codes that damage or
+cannot be read by your equipment.
+
+1.F.2. LIMITED WARRANTY, DISCLAIMER OF DAMAGES - Except for the “Right
+of Replacement or Refund” described in paragraph 1.F.3, the Project
+Gutenberg Literary Archive Foundation, the owner of the Project
+Gutenberg™ trademark, and any other party distributing a Project
+Gutenberg™ electronic work under this agreement, disclaim all
+liability to you for damages, costs and expenses, including legal
+fees. YOU AGREE THAT YOU HAVE NO REMEDIES FOR NEGLIGENCE, STRICT
+LIABILITY, BREACH OF WARRANTY OR BREACH OF CONTRACT EXCEPT THOSE
+PROVIDED IN PARAGRAPH 1.F.3. YOU AGREE THAT THE FOUNDATION, THE
+TRADEMARK OWNER, AND ANY DISTRIBUTOR UNDER THIS AGREEMENT WILL NOT BE
+LIABLE TO YOU FOR ACTUAL, DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE OR
+INCIDENTAL DAMAGES EVEN IF YOU GIVE NOTICE OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+1.F.3. LIMITED RIGHT OF REPLACEMENT OR REFUND - If you discover a
+defect in this electronic work within 90 days of receiving it, you can
+receive a refund of the money (if any) you paid for it by sending a
+written explanation to the person you received the work from. If you
+received the work on a physical medium, you must return the medium
+with your written explanation. The person or entity that provided you
+with the defective work may elect to provide a replacement copy in
+lieu of a refund. If you received the work electronically, the person
+or entity providing it to you may choose to give you a second
+opportunity to receive the work electronically in lieu of a refund. If
+the second copy is also defective, you may demand a refund in writing
+without further opportunities to fix the problem.
+
+1.F.4. Except for the limited right of replacement or refund set forth
+in paragraph 1.F.3, this work is provided to you ‘AS-IS’, WITH NO
+OTHER WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PURPOSE.
+
+1.F.5. Some states do not allow disclaimers of certain implied
+warranties or the exclusion or limitation of certain types of
+damages. If any disclaimer or limitation set forth in this agreement
+violates the law of the state applicable to this agreement, the
+agreement shall be interpreted to make the maximum disclaimer or
+limitation permitted by the applicable state law. The invalidity or
+unenforceability of any provision of this agreement shall not void the
+remaining provisions.
+
+1.F.6. INDEMNITY - You agree to indemnify and hold the Foundation, the
+trademark owner, any agent or employee of the Foundation, anyone
+providing copies of Project Gutenberg™ electronic works in
+accordance with this agreement, and any volunteers associated with the
+production, promotion and distribution of Project Gutenberg™
+electronic works, harmless from all liability, costs and expenses,
+including legal fees, that arise directly or indirectly from any of
+the following which you do or cause to occur: (a) distribution of this
+or any Project Gutenberg™ work, (b) alteration, modification, or
+additions or deletions to any Project Gutenberg™ work, and (c) any
+Defect you cause.
+
+Section 2. Information about the Mission of Project Gutenberg™
+
+Project Gutenberg™ is synonymous with the free distribution of
+electronic works in formats readable by the widest variety of
+computers including obsolete, old, middle-aged and new computers. It
+exists because of the efforts of hundreds of volunteers and donations
+from people in all walks of life.
+
+Volunteers and financial support to provide volunteers with the
+assistance they need are critical to reaching Project Gutenberg™’s
+goals and ensuring that the Project Gutenberg™ collection will
+remain freely available for generations to come. In 2001, the Project
+Gutenberg Literary Archive Foundation was created to provide a secure
+and permanent future for Project Gutenberg™ and future
+generations. To learn more about the Project Gutenberg Literary
+Archive Foundation and how your efforts and donations can help, see
+Sections 3 and 4 and the Foundation information page at www.gutenberg.org.
+
+Section 3. Information about the Project Gutenberg Literary Archive Foundation
+
+The Project Gutenberg Literary Archive Foundation is a non-profit
+501(c)(3) educational corporation organized under the laws of the
+state of Mississippi and granted tax exempt status by the Internal
+Revenue Service. The Foundation’s EIN or federal tax identification
+number is 64-6221541. Contributions to the Project Gutenberg Literary
+Archive Foundation are tax deductible to the full extent permitted by
+U.S. federal laws and your state’s laws.
+
+The Foundation’s business office is located at 809 North 1500 West,
+Salt Lake City, UT 84116, (801) 596-1887. Email contact links and up
+to date contact information can be found at the Foundation’s website
+and official page at www.gutenberg.org/contact
+
+Section 4. Information about Donations to the Project Gutenberg
+Literary Archive Foundation
+
+Project Gutenberg™ depends upon and cannot survive without widespread
+public support and donations to carry out its mission of
+increasing the number of public domain and licensed works that can be
+freely distributed in machine-readable form accessible by the widest
+array of equipment including outdated equipment. Many small donations
+($1 to $5,000) are particularly important to maintaining tax exempt
+status with the IRS.
+
+The Foundation is committed to complying with the laws regulating
+charities and charitable donations in all 50 states of the United
+States. Compliance requirements are not uniform and it takes a
+considerable effort, much paperwork and many fees to meet and keep up
+with these requirements. We do not solicit donations in locations
+where we have not received written confirmation of compliance. To SEND
+DONATIONS or determine the status of compliance for any particular state
+visit www.gutenberg.org/donate.
+
+While we cannot and do not solicit contributions from states where we
+have not met the solicitation requirements, we know of no prohibition
+against accepting unsolicited donations from donors in such states who
+approach us with offers to donate.
+
+International donations are gratefully accepted, but we cannot make
+any statements concerning tax treatment of donations received from
+outside the United States. U.S. laws alone swamp our small staff.
+
+Please check the Project Gutenberg web pages for current donation
+methods and addresses. Donations are accepted in a number of other
+ways including checks, online payments and credit card donations. To
+donate, please visit: www.gutenberg.org/donate.
+
+Section 5. General Information About Project Gutenberg™ electronic works
+
+Professor Michael S. Hart was the originator of the Project
+Gutenberg™ concept of a library of electronic works that could be
+freely shared with anyone. For forty years, he produced and
+distributed Project Gutenberg™ eBooks with only a loose network of
+volunteer support.
+
+Project Gutenberg™ eBooks are often created from several printed
+editions, all of which are confirmed as not protected by copyright in
+the U.S. unless a copyright notice is included. Thus, we do not
+necessarily keep eBooks in compliance with any particular paper
+edition.
+
+Most people start at our website which has the main PG search
+facility: www.gutenberg.org.
+
+This website includes information about Project Gutenberg™,
+including how to make donations to the Project Gutenberg Literary
+Archive Foundation, how to help produce our new eBooks, and how to
+subscribe to our email newsletter to hear about new eBooks.
+
+
