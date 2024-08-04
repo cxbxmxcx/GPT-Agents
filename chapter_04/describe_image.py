@@ -1,5 +1,5 @@
 import base64
-
+import os
 import requests
 
 
@@ -9,7 +9,7 @@ def describe_image(image_path="animals.png") -> str:
 
     :param input_path: str, the name of the PNG file to describe.
     """
-    api_key = "your-api-key-here"
+    api_key = os.environ['OPEN_API_KEY']
 
     # Function to encode the image
     def encode_image(image_path):
