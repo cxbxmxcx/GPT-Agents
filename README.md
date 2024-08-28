@@ -1,13 +1,13 @@
-# GPT-Agents: Exploring the World of AI Agents and Assistants
+# GPT-Agents (AI Agents In Action): Exploring the World of AI Agents and Assistants
 
 ## About the Book
-"GPT-Agents," published by Manning Publications, is an insightful exploration into the world of large language model-empowered agents and assistants, focusing on Generative Pre-trained Transformer (GPT) Agents. This book offers a comprehensive guide to understanding, developing, and utilizing GPT agents in the realm of AI and machine learning.
+"AI Agents in Action," published by Manning Publications, is an insightful exploration into the world of large language model-empowered agents and assistants, focusing on AI Agents powered by large language models. This book offers a comprehensive guide to understanding, developing, and utilizing GPT agents in the realm of AI and machine learning.
 
 ### Key Themes
 - **Understanding Agents**: Delve into the concept, history, and current role of agents in AI, distinguishing between agents and assistants, including autonomous agents.
 - **Agent Components**: Explore the complex components that constitute an agent, including their profiles, actions, memory, and planning capabilities.
-- **Evolution of GPT Agents**: Trace the rapid development of GPT agents in software development and their growing significance in AI research.
-- **GPT Interface Development**: Learn about the shift towards natural language interfaces in software and data, and how to build effective GPT interfaces.
+- **Evolution of AI Agents**: Trace the rapid development of GPT agents in software development and their growing significance in AI research.
+- **AI Interface Development**: Learn about the shift towards natural language interfaces in software and data, and how to build effective GPT interfaces.
 - **Agent Tools and Platforms**: Discover various tools and platforms essential for constructing effective GPT agent systems, with a focus on practical application.
 
 ### Objective
