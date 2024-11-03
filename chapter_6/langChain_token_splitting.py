@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import os
-from langchain.document_loaders import UnstructuredHTMLLoader
+from langchain_community.document_loaders import UnstructuredHTMLLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.text_splitter import CharacterTextSplitter

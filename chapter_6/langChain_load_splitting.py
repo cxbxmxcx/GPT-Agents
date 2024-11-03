@@ -2,7 +2,8 @@ from openai import OpenAI
 from dotenv import load_dotenv
 import os
 import chromadb
-from langchain.document_loaders import UnstructuredHTMLLoader
+
+from langchain_community.document_loaders import UnstructuredHTMLLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Load API key from .env file
