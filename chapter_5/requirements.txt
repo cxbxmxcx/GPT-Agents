@@ -1,6 +1,0 @@
-streamlit
-openai
-python-dotenv
-promptflow
-promptflow-tools
-agent-connetor
